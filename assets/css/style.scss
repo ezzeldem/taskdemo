@@ -215,6 +215,9 @@ html[lang="en"] {
         width: 300px;
         box-shadow: 5px 0 10px rgba($brown-color, 0.2);
         padding: 100px 0;
+        .header-box {
+            display: none;
+        }
         ul {
             text-align: center;
             li {
@@ -330,6 +333,7 @@ html[lang="en"] {
 
     .Project-box {
         text-align: center;
+        margin: 20px 0;
         .Project-title {
             font-size: 30px;
             font-weight: 600;
@@ -549,54 +553,233 @@ html[lang="en"] {
 
 // end footer-content
 
-
-
-
-.loging-page{
+.loging-page {
     background-color: rgba($brown-color, 1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 99999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999999;
 }
 
 .loading {
     display: flex;
-  }
-  
-  .circle {
+}
+
+.circle {
     width: 20px;
     height: 20px;
     background-color: white;
     border-radius: 50%;
     margin: 3px;
     animation: jump 0.5s ease-in infinite;
-  }
-  
-  .circle:nth-of-type(1) {
+}
+
+.circle:nth-of-type(1) {
     background-color: rgba($main-color, 1);
-  }
-  
-  .circle:nth-of-type(2) {
+}
+
+.circle:nth-of-type(2) {
     animation-delay: 0.1s;
     background-color: rgba($gold-color, 1);
-  }
-  
-  .circle:nth-of-type(3) {
+}
+
+.circle:nth-of-type(3) {
     animation-delay: 0.2s;
     background-color: rgba($white-color, 1);
-  }
-  
-  @keyframes jump {
+}
+
+@keyframes jump {
     0% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
     50% {
-      transform: translateY(-10px);
+        transform: translateY(-10px);
     }
-  }
+}
+
+@media (max-width: 1200px) {
+    .footer-content {
+        .footer-ul {
+            .phone-box {
+                flex-wrap: wrap;
+            }
+            .ul-title {
+                font-size: 18px;
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    .prag {
+        font-size: 16px;
+    }
+    .request-section {
+        .request-content {
+            .mail-box {
+                .mail-box-title {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 772px) {
+    .prag {
+        font-size: 14px;
+    }
+
+    .main-link-box {
+        a {
+            padding: 10px 44px;
+            border-radius: 19px;
+            color: #090909;
+            font-size: 16px;
+        }
+    }
+
+    .header-section {
+        .second-box {
+            display: none;
+        }
+        .nav-menu {
+            width: 210px;
+            .header-box {
+                display: flex !important;
+                justify-content: center;
+                a {
+                    &:hover {
+                        color: rgba($brown-color, 1) !important;
+                    }
+                }
+                ul {
+                    display: block;
+                }
+            }
+        }
+    }
+    .intro-section {
+        .intro-slider {
+            .arrow-slider {
+                bottom: 0;
+                top: unset;
+                i {
+                    font-size: 22px;
+                }
+            }
+            .intro-slider-item {
+                height: 50vh;
+            }
+        }
+    }
+
+    .frist-title {
+        .mid-title {
+            font-size: 22px;
+        }
+        .main-title {
+            font-size: 20px;
+        }
+    }
+
+    .find-our-section {
+        .select-section {
+            .selectForm {
+                flex-wrap: wrap;
+                .select-box {
+                    border-left: none !important;
+                    border-bottom: 2px solid rgba($main-color, 1) !important;
+                    .current {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .find-our-section {
+        .Project-box {
+            .Project-title {
+                font-size: 20px;
+            }
+            .viewBox {
+                font-size: 18px;
+                padding: 14px 40px;
+            }
+        }
+        .Project-box {
+            .Project-box-img {
+                height: 301px;
+            }
+        }
+    }
+    .details-section {
+        .details-content {
+            padding: 0;
+            .details-title {
+                font-size: 24px;
+            }
+            .details-title-2 {
+                font-size: 20px;
+            }
+        }
+        .prag {
+            font-size: 18px !important;
+        }
+    }
+
+    .request-section {
+        .request-content {
+            .icone-box {
+                height: 70px;
+                width: 70px;
+                i {
+                    font-size: 35px;
+                }
+            }
+            .mail-box {
+                .mail-box-title {
+                    font-size: 16px;
+                }
+                .mail-form {
+                    input {
+                        height: 45px;
+                    }
+                    button {
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-content {
+        .footer-ul {
+            text-align: center;
+            padding: 30px 0 0;
+            .ul-title {
+                margin: 0 0 21px;
+                font-size: 22px;
+                ul {
+                    li {
+                        a {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            .phone-box {
+                justify-content: center;
+            }
+        }
+        .copy-footer {
+            .copy-footer-content {
+                font-size: 12px;
+            }
+        }
+    }
+}

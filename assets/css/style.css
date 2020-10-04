@@ -184,6 +184,9 @@ html[lang="en"] body {
   box-shadow: 5px 0 10px rgba(52, 52, 52, 0.2);
   padding: 100px 0;
 }
+.header-section .nav-menu .header-box {
+  display: none;
+}
 .header-section .nav-menu ul {
   text-align: center;
 }
@@ -283,6 +286,7 @@ html[lang="en"] body {
 }
 .find-our-section .Project-box {
   text-align: center;
+  margin: 20px 0;
 }
 .find-our-section .Project-box .Project-title {
   font-size: 30px;
@@ -514,5 +518,139 @@ html[lang="en"] body {
   }
   50% {
     transform: translateY(-10px);
+  }
+}
+@media (max-width: 1200px) {
+  .footer-content .footer-ul .phone-box {
+    flex-wrap: wrap;
+  }
+  .footer-content .footer-ul .ul-title {
+    font-size: 18px;
+  }
+}
+@media (max-width: 992px) {
+  .prag {
+    font-size: 16px;
+  }
+
+  .request-section .request-content .mail-box .mail-box-title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 772px) {
+  .prag {
+    font-size: 14px;
+  }
+
+  .main-link-box a {
+    padding: 10px 44px;
+    border-radius: 19px;
+    color: #090909;
+    font-size: 16px;
+  }
+
+  .header-section .second-box {
+    display: none;
+  }
+  .header-section .nav-menu {
+    width: 210px;
+  }
+  .header-section .nav-menu .header-box {
+    display: flex !important;
+    justify-content: center;
+  }
+  .header-section .nav-menu .header-box a:hover {
+    color: #343434 !important;
+  }
+  .header-section .nav-menu .header-box ul {
+    display: block;
+  }
+
+  .intro-section .intro-slider .arrow-slider {
+    bottom: 0;
+    top: unset;
+  }
+  .intro-section .intro-slider .arrow-slider i {
+    font-size: 22px;
+  }
+  .intro-section .intro-slider .intro-slider-item {
+    height: 50vh;
+  }
+
+  .frist-title .mid-title {
+    font-size: 22px;
+  }
+  .frist-title .main-title {
+    font-size: 20px;
+  }
+
+  .find-our-section .select-section .selectForm {
+    flex-wrap: wrap;
+  }
+  .find-our-section .select-section .selectForm .select-box {
+    border-left: none !important;
+    border-bottom: 2px solid #090909 !important;
+  }
+  .find-our-section .select-section .selectForm .select-box .current {
+    font-size: 15px;
+  }
+
+  .find-our-section .Project-box .Project-title {
+    font-size: 20px;
+  }
+  .find-our-section .Project-box .viewBox {
+    font-size: 18px;
+    padding: 14px 40px;
+  }
+  .find-our-section .Project-box .Project-box-img {
+    height: 301px;
+  }
+
+  .details-section .details-content {
+    padding: 0;
+  }
+  .details-section .details-content .details-title {
+    font-size: 24px;
+  }
+  .details-section .details-content .details-title-2 {
+    font-size: 20px;
+  }
+  .details-section .prag {
+    font-size: 18px !important;
+  }
+
+  .request-section .request-content .icone-box {
+    height: 70px;
+    width: 70px;
+  }
+  .request-section .request-content .icone-box i {
+    font-size: 35px;
+  }
+  .request-section .request-content .mail-box .mail-box-title {
+    font-size: 16px;
+  }
+  .request-section .request-content .mail-box .mail-form input {
+    height: 45px;
+  }
+  .request-section .request-content .mail-box .mail-form button {
+    font-size: 24px;
+  }
+
+  .footer-content .footer-ul {
+    text-align: center;
+    padding: 30px 0 0;
+  }
+  .footer-content .footer-ul .ul-title {
+    margin: 0 0 21px;
+    font-size: 22px;
+  }
+  .footer-content .footer-ul .ul-title ul li a {
+    font-size: 14px;
+  }
+  .footer-content .footer-ul .phone-box {
+    justify-content: center;
+  }
+  .footer-content .copy-footer .copy-footer-content {
+    font-size: 12px;
   }
 }
