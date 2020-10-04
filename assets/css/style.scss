@@ -643,6 +643,9 @@ html[lang="en"] {
     }
 
     .header-section {
+        .header-box {
+            justify-content: space-between;
+        }
         .second-box {
             display: none;
         }
@@ -650,7 +653,7 @@ html[lang="en"] {
             width: 210px;
             .header-box {
                 display: flex !important;
-                justify-content: center;
+                justify-content: center !important;
                 a {
                     &:hover {
                         color: rgba($brown-color, 1) !important;
@@ -758,19 +761,20 @@ html[lang="en"] {
     }
 
     .footer-content {
+        text-align: center;
         .footer-ul {
-            text-align: center;
             padding: 30px 0 0;
+            ul {
+                li {
+                    a {
+                        font-size: 14px !important;
+                    }
+                }
+            }
+            
             .ul-title {
                 margin: 0 0 21px;
                 font-size: 22px;
-                ul {
-                    li {
-                        a {
-                            font-size: 14px;
-                        }
-                    }
-                }
             }
             .phone-box {
                 justify-content: center;

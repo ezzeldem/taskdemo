@@ -23,7 +23,7 @@ $(document).ready(function(){
         arrows: true,
         rtl: dir_lang,
         fade:true,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 2000,
         prevArrow: "<div class='arrow-slider left-arrow'> <i class='fas fa-arrow-left'></i></div>",
         nextArrow: "<div class='arrow-slider right-arrow'> <i class='fas fa-arrow-right'></i></div>",

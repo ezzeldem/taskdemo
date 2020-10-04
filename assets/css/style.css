@@ -549,6 +549,9 @@ html[lang="en"] body {
     font-size: 16px;
   }
 
+  .header-section .header-box {
+    justify-content: space-between;
+  }
   .header-section .second-box {
     display: none;
   }
@@ -557,7 +560,7 @@ html[lang="en"] body {
   }
   .header-section .nav-menu .header-box {
     display: flex !important;
-    justify-content: center;
+    justify-content: center !important;
   }
   .header-section .nav-menu .header-box a:hover {
     color: #343434 !important;
@@ -636,16 +639,18 @@ html[lang="en"] body {
     font-size: 24px;
   }
 
-  .footer-content .footer-ul {
+  .footer-content {
     text-align: center;
+  }
+  .footer-content .footer-ul {
     padding: 30px 0 0;
+  }
+  .footer-content .footer-ul ul li a {
+    font-size: 14px !important;
   }
   .footer-content .footer-ul .ul-title {
     margin: 0 0 21px;
     font-size: 22px;
-  }
-  .footer-content .footer-ul .ul-title ul li a {
-    font-size: 14px;
   }
   .footer-content .footer-ul .phone-box {
     justify-content: center;
