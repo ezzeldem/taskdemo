@@ -558,6 +558,9 @@ html[lang="en"] body {
   .header-section .nav-menu {
     width: 210px;
   }
+  .header-section .nav-menu ul li a {
+    font-size: 16px;
+  }
   .header-section .nav-menu .header-box {
     display: block !important;
   }
