@@ -8,6 +8,12 @@ $(document).ready(function(){
     }
 
 
+        // window load
+        $(window).load(function() {
+            $('.loging-page').fadeOut();
+        });
+    
+
     // intro slider
     $(".intro-slider").slick({
         dots: false,
@@ -40,4 +46,5 @@ $(document).ready(function(){
     $('.select-box').niceSelect();
 
  
+    AOS.init();
 });

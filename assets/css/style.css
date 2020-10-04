@@ -290,7 +290,7 @@ html[lang="en"] body {
   color: #090909;
   margin: 0 0 30px;
 }
-.find-our-section .Project-box .Project-box {
+.find-our-section .Project-box .Project-box-img {
   height: 600px;
   background-position: center;
   background-size: cover;
@@ -466,4 +466,53 @@ html[lang="en"] body {
   font-size: 20px;
   text-align: center;
   color: white;
+}
+
+.loging-page {
+  background-color: #343434;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999999;
+}
+
+.loading {
+  display: flex;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 3px;
+  animation: jump 0.5s ease-in infinite;
+}
+
+.circle:nth-of-type(1) {
+  background-color: #090909;
+}
+
+.circle:nth-of-type(2) {
+  animation-delay: 0.1s;
+  background-color: #ffc725;
+}
+
+.circle:nth-of-type(3) {
+  animation-delay: 0.2s;
+  background-color: white;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
