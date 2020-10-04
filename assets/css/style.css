@@ -559,19 +559,27 @@ html[lang="en"] body {
     width: 210px;
   }
   .header-section .nav-menu .header-box {
-    display: flex !important;
-    justify-content: center !important;
+    display: block !important;
+  }
+  .header-section .nav-menu .header-box .header-icon {
+    text-align: center;
+    display: block !important;
   }
   .header-section .nav-menu .header-box a:hover {
     color: #343434 !important;
   }
   .header-section .nav-menu .header-box ul {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header-section .nav-menu .header-box .lang-box {
+    margin: 20px 0;
+    justify-content: center;
   }
 
   .intro-section .intro-slider .arrow-slider {
-    bottom: 0;
-    top: unset;
+    top: 66%;
   }
   .intro-section .intro-slider .arrow-slider i {
     font-size: 22px;

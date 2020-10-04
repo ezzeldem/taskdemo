@@ -652,15 +652,24 @@ html[lang="en"] {
         .nav-menu {
             width: 210px;
             .header-box {
-                display: flex !important;
-                justify-content: center !important;
+                display: block !important;
+                .header-icon{
+                    text-align: center;
+                display: block !important;
+                }
                 a {
                     &:hover {
                         color: rgba($brown-color, 1) !important;
                     }
                 }
                 ul {
-                    display: block;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+                .lang-box{
+                    margin: 20px 0;
+                    justify-content: center;
                 }
             }
         }
@@ -668,8 +677,7 @@ html[lang="en"] {
     .intro-section {
         .intro-slider {
             .arrow-slider {
-                bottom: 0;
-                top: unset;
+                top: 66%;
                 i {
                     font-size: 22px;
                 }
