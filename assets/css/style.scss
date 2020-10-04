@@ -342,6 +342,14 @@ html[lang="en"] {
                 &:first-of-type {
                     border-left: 0px solid rgba($brown-color, 1) !important;
                 }
+                html[lang="ar"] &{
+                    &:first-of-type {
+                        border-left: 3px solid rgba($brown-color, 1) !important;
+                    }
+                    &:last-of-type {
+                        border-left: 3px solid rgba($brown-color, 1) !important;
+                    }
+                }
                 .list {
                     width: 100%;
                 }

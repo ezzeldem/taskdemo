@@ -290,6 +290,12 @@ html[lang="ar"] .header-section .nav-menu {
 .find-our-section .select-section .selectForm .select-box:first-of-type {
   border-left: 0px solid #343434 !important;
 }
+html[lang="ar"] .find-our-section .select-section .selectForm .select-box:first-of-type {
+  border-left: 3px solid #343434 !important;
+}
+html[lang="ar"] .find-our-section .select-section .selectForm .select-box:last-of-type {
+  border-left: 3px solid #343434 !important;
+}
 .find-our-section .select-section .selectForm .select-box .list {
   width: 100%;
 }
