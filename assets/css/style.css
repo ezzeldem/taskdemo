@@ -23,6 +23,9 @@ html[lang="en"] body {
 .open-menu-j {
   left: 0 !important;
 }
+html[lang="ar"] .open-menu-j {
+  right: 0 !important;
+}
 
 .padding-40 {
   padding: 60px 0;
@@ -163,6 +166,12 @@ html[lang="en"] body {
 .header-section .header-box .header-icon .lang-box a:last-of-type::after {
   display: none;
 }
+html[lang="ar"] .header-section .header-box .header-icon .lang-box a:last-of-type::after {
+  display: block;
+}
+html[lang="ar"] .header-section .header-box .header-icon .lang-box a:first-of-type::after {
+  display: none;
+}
 .header-section .over-lay {
   position: fixed;
   left: 0;
@@ -183,6 +192,10 @@ html[lang="en"] body {
   width: 300px;
   box-shadow: 5px 0 10px rgba(52, 52, 52, 0.2);
   padding: 100px 0;
+}
+html[lang="ar"] .header-section .nav-menu {
+  left: unset;
+  right: -500px;
 }
 .header-section .nav-menu .header-box {
   display: none;
@@ -406,6 +419,9 @@ html[lang="en"] body {
   outline: none;
   box-shadow: none;
 }
+html[lang="ar"] .request-section .request-content .mail-box .mail-form input {
+  border-radius: 0px 10px 10px 0px;
+}
 .request-section .request-content .mail-box .mail-form button {
   border-radius: 0 10px 10px 0;
   padding: 0 24px;
@@ -417,6 +433,9 @@ html[lang="en"] body {
 .request-section .request-content .mail-box .mail-form button:focus {
   outline: none;
   box-shadow: none;
+}
+html[lang="ar"] .request-section .request-content .mail-box .mail-form button {
+  border-radius: 10px 0 0 10px;
 }
 
 .footer-content {

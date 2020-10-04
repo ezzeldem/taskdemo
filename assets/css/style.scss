@@ -31,10 +31,15 @@ html[lang="en"] {
     body {
         font-family: "Poppins", sans-serif;
     }
+
 }
 
 .open-menu-j {
     left: 0 !important;
+    html[lang="ar"] &{
+        
+        right: 0 !important;
+    }
 }
 .padding-40 {
     padding: 60px 0;
@@ -190,6 +195,19 @@ html[lang="en"] {
                             display: none;
                         }
                     }
+
+                    html[lang="ar"] &{
+                        &:last-of-type {
+                            &::after {
+                                display: block;
+                            }
+                        }
+                        &:first-of-type {
+                            &::after {
+                                display: none;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -207,6 +225,10 @@ html[lang="en"] {
     .nav-menu {
         z-index: 9999999;
         position: fixed;
+        html[lang="ar"] & {
+            left: unset;
+            right: -500px;
+        }
         left: -500px;
         top: 0;
         @extend.transtion-4;
@@ -468,6 +490,10 @@ html[lang="en"] {
                         outline: none;
                         box-shadow: none;
                     }
+
+                    html[lang="ar"] &{
+                        border-radius: 0px 10px 10px 0px;
+                    }
                 }
 
                 button {
@@ -480,6 +506,9 @@ html[lang="en"] {
                     &:focus {
                         outline: none;
                         box-shadow: none;
+                    }
+                    html[lang="ar"] &{
+                        border-radius:  10px 0 0 10px;
                     }
                 }
             }
