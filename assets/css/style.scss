@@ -176,7 +176,7 @@ html[lang="en"] {
                     margin: 0 10px;
                     color: rgba($main-color, 1);
                     @extend.transtion-4;
-                    &:hover {
+                    &.active-lang,&:hover {
                         color: rgba($gold-color, 1);
                     }
                     &:after {
