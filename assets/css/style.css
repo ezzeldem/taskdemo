@@ -222,6 +222,10 @@ html[lang="ar"] .header-section .nav-menu {
   top: 30px;
   right: 30px;
 }
+html[lang="ar"] .header-section .nav-menu .close-menu {
+  right: unset;
+  left: 30px;
+}
 .header-section .nav-menu .close-menu i {
   cursor: pointer;
   font-size: 22px;
@@ -290,11 +294,15 @@ html[lang="ar"] .header-section .nav-menu {
 .find-our-section .select-section .selectForm .select-box:first-of-type {
   border-left: 0px solid #343434 !important;
 }
+html[lang="ar"] .find-our-section .select-section .selectForm .select-box:after {
+  left: 12px;
+  right: unset;
+}
 html[lang="ar"] .find-our-section .select-section .selectForm .select-box:first-of-type {
   border-left: 3px solid #343434 !important;
 }
 html[lang="ar"] .find-our-section .select-section .selectForm .select-box:last-of-type {
-  border-left: 3px solid #343434 !important;
+  border-left: 0px solid #343434 !important;
 }
 .find-our-section .select-section .selectForm .select-box .list {
   width: 100%;
@@ -627,8 +635,11 @@ html[lang="ar"] .request-section .request-content .mail-box .mail-form button {
     flex-wrap: wrap;
   }
   .find-our-section .select-section .selectForm .select-box {
-    border-left: none !important;
     border-bottom: 2px solid #090909 !important;
+    border-left: none !important;
+  }
+  html[lang="ar"] .find-our-section .select-section .selectForm .select-box:first-of-type {
+    border-left: none !important;
   }
   .find-our-section .select-section .selectForm .select-box .current {
     font-size: 15px;
