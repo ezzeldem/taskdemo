@@ -152,7 +152,7 @@ html[lang="ar"] .open-menu-j {
   color: #090909;
 }
 .header-section .header-box .header-icon .lang-box a.active-lang, .header-section .header-box .header-icon .lang-box a:hover {
-  color: #ffc725;
+  color: #343434;
 }
 .header-section .header-box .header-icon .lang-box a:after {
   content: "";

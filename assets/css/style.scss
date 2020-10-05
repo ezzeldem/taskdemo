@@ -177,7 +177,7 @@ html[lang="en"] {
                     color: rgba($main-color, 1);
                     @extend.transtion-4;
                     &.active-lang,&:hover {
-                        color: rgba($gold-color, 1);
+                        color: rgba($brown-color, 1);
                     }
                     &:after {
                         content: "";
