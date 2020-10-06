@@ -20,6 +20,10 @@ html[lang="en"] body {
   font-family: "Poppins", sans-serif;
 }
 
+.body-over-lay {
+  overflow-y: hidden;
+}
+
 .open-menu-j {
   left: 0 !important;
 }

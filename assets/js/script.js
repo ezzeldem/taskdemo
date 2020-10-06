@@ -29,12 +29,14 @@ $(document).ready(function () {
     // open menu
     $(".menu-icon i ").click(function () {
         $(".nav-menu").addClass("open-menu-j");
+        $("body").addClass("body-over-lay");
         $(".over-lay").show();
     });
 
     // close menu
     $(".close-menu i, .over-lay").click(function () {
         $(".nav-menu").removeClass("open-menu-j");
+        $("body").removeClass("body-over-lay");
         $(".over-lay").hide();
     });
 
