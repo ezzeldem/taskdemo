@@ -20,6 +20,7 @@ a {
 $main-color: #090909;
 $gold-color: #ffc725;
 $gray-color: #eeeeee;
+$gray-color2: #525252;
 $white-color: #fff;
 $brown-color: #343434;
 
@@ -54,6 +55,10 @@ body{
 }
 .padding-40 {
     padding: 60px 0;
+}
+
+.padding-20{
+    padding: 35px 0;
 }
 
 .transtion-4 {
@@ -1029,6 +1034,7 @@ body{
                         color: rgba($main-color, 1);
                         @extend.transtion-4;
                         cursor: default;
+                        background-color: rgba($white-color, 1);
                         &:hover{
                             transform: scale(1.04) translateY(-3px);
                             border: 3px solid rgba($brown-color, 1);
@@ -1186,6 +1192,91 @@ body{
 }
 
 // end gallery-section 
+
+
+
+
+// start masterPlan-section
+
+.masterPlan-section{
+    .frist-title2{
+        .main-title{
+            margin: 0 0 30px 0;
+        }
+    }
+    
+
+
+    .masterPlan-img{
+        margin: 0 -30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 816px;
+    }
+
+    .masterPlan-ul{
+        margin: 0 40px;
+        .prag {
+            font-size: 25px;
+        }
+        ul{
+            list-style: decimal !important;
+            padding: 0 24px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            li{
+                margin: 20px 0;
+                font-size: 22px;
+                color: rgba($main-color, 1);
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+
+// end masterPlan-section
+
+
+
+// start services-amenities-section
+
+.services-amenities-section{
+    .frist-title2{
+        .main-title{
+            margin: 0 0 30px 0;
+        }
+    }
+
+
+    .services-mianBox{
+        display: flex;
+        justify-content: space-between;
+        .services-box{
+            flex: 1;
+            margin: 20px ;
+            .img-box{
+                text-align: center;
+                img{
+                    width: 70px;
+                    height: 70px;
+                }
+                .services-title{
+                    margin: 20px 0 ;
+                    font-size: 15px;
+                    color: rgba($gray-color2, 1);
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+
+// end services-amenities-section
 
 
 
