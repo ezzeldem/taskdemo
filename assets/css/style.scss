@@ -1192,6 +1192,11 @@ body {
                 font-size: 22px;
                 color: rgba($main-color, 1);
                 font-weight: 600;
+                .masterPlan-title {
+                    color: rgba($main-color, 1);
+                    font-weight: 600;
+                    font-size: 22px;
+                }
             }
         }
     }
@@ -1216,6 +1221,10 @@ body {
             margin: 20px;
             .img-box {
                 text-align: center;
+                @extend.transtion-4;
+                &:hover {
+                    transform: scale(1.05);
+                }
                 img {
                     width: 70px;
                     height: 70px;
@@ -1249,5 +1258,146 @@ body {
     }
     100% {
         transform: translate(10px, -10px);
+    }
+}
+
+// start media
+
+@media (max-width: 1200px) {
+    .masterPlan-section {
+        .masterPlan-ul {
+            .prag {
+                font-size: 16px;
+            }
+
+            ul {
+                li {
+                    font-size: 18px;
+                    .masterPlan-title {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .arrow-slider2 {
+        top: unset;
+        bottom: -80px;
+        &.left-arrow {
+            left: 0;
+        }
+        &.right-arrow {
+            right: 0;
+        }
+    }
+
+    .frist-title2 {
+        .main-title {
+            font-size: 30px;
+            &::before {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+
+    .baneer-intorSection {
+        padding: 86px 0;
+    }
+
+    .masterPlan-section {
+        .masterPlan-img {
+            margin: 20px 0;
+            height: 458px;
+        }
+        .masterPlan-ul {
+            .prag {
+                font-size: 16px;
+            }
+
+            ul {
+                li {
+                    font-size: 18px;
+                    .masterPlan-title {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 772px) {
+    .padding-20 {
+        padding: 15px 0;
+    }
+
+    .baneer-intorSection {
+        padding: 69px 0;
+        .baneer-title {
+            font-size: 14px;
+            width: 60%;
+        }
+    }
+
+    .frist-title2 {
+        .main-title {
+            font-size: 22px;
+        }
+    }
+
+    .about-brand {
+        .main-title {
+            margin: 0 0 20px;
+        }
+    }
+
+    .main-link-box2 {
+        a {
+            padding: 9px 25px;
+            font-size: 16px;
+        }
+    }
+
+    .floorPaln-section {
+        .floor-size {
+            margin: 12px 0 !important;
+        }
+        .floor-img {
+            height: 564px;
+            margin: 10px 0;
+        }
+    }
+
+    .location-section {
+        .map-img {
+            height: 166px;
+        }
+        .location-content {
+            .prag {
+                width: 100%;
+            }
+        }
+    }
+
+    .masterPlan-section {
+        .masterPlan-ul {
+            margin: 10px 0;
+            .prag {
+                margin: 10px 0;
+                font-size: 14px;
+            }
+            ul {
+                li {
+                    font-size: 16px;
+                    .masterPlan-title {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
     }
 }
