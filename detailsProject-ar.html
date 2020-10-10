@@ -11,13 +11,12 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
         <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.0.0/css/bootstrap.min.css" integrity="sha384-P4uhUIGk/q1gaD/NdgkBIl3a6QywJjlsFJFk7SPRdruoGddvRVSwv5qFnvZ73cpz" crossorigin="anonymous" />
         <link rel="stylesheet" href="assets/css/style.css" />
-        <title>demo</title>
+        <title>detailsProject</title>
     </head>
 
-    <body class="home-page">
+    <body class="detailsProject-page">
         <div id="page" class="hfeed site">
             <!--       start header-->
             <div class="header-container">
@@ -104,10 +103,10 @@
                                                     </li>
                                                 </ul>
                                                 <div class="lang-box">
-                                                    <a href="./index.html">
+                                                    <a class="active-lang" href="./detailsProject.html">
                                                         EN
                                                     </a>
-                                                    <a class="active-lang" href="./index-ar.html">
+                                                    <a href="./detailsProject-ar.html">
                                                         AR
                                                     </a>
                                                 </div>
@@ -151,10 +150,10 @@
                                                 </li>
                                             </ul>
                                             <div class="lang-box">
-                                                <a href="./index.html">
+                                                <a class="active-lang" href="./detailsProject.html">
                                                     EN
                                                 </a>
-                                                <a class="active-lang" href="./index-ar.html">
+                                                <a href="./detailsProject-ar.html">
                                                     AR
                                                 </a>
                                             </div>
@@ -172,220 +171,326 @@
             <!--           start content-->
             <div class="main-container">
                 <main class="main wrapper">
-                    <!-- start intro-section -->
-
-                    <div class="intro-section">
-                        <div class="container-fluid">
+                    <!-- start baneer-intorSection -->
+                    <div class="baneer-intorSection" style="background-image: url('assets/img/5.png');">
+                        <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <div class="intro-slider">
-                                        <div class="intro-slider-item" style="background-image: url('assets/img/intro-slider.png');"></div>
-                                        <div class="intro-slider-item" style="background-image: url('assets/img/2.jpg');"></div>
-                                        <div class="intro-slider-item" style="background-image: url('assets/img/3.jpg');"></div>
+                                    <div class="baneer-intorSection-content">
+                                        <div class="brand-logo" data-aos="zoom-in">
+                                            <img src="assets/img/brandName.png" alt="" class="img-fluid" />
+                                        </div>
+                                        <h5 class="baneer-title" data-aos="zoom-in">
+                                            وحدات مصممة بشكل رائع ، مثالية لنمط الحياة الذي تستحقه.
+                                        </h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- end intro-section -->
+                    <!-- end baneer-intorSection -->
 
-                    <!-- start find-our-section -->
-                    <div class="find-our-section gary-back padding-40">
-                        <div class="container-fluid">
-                            <div class="row justify-content-center">
-                                <div class="col-md-10">
-                                    <div class="frist-title">
-                                        <h2 class="mid-title" data-aos="zoom-in">
-                                            ابحث عن
-                                        </h2>
-                                        <h3 class="main-title" data-aos="zoom-in">
-                                            مشاريع مميزة
+                    <!-- start about-brand -->
+                    <div class="about-brand padding-20">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="frist-title2">
+                                        <h3 class="main-title aos-init aos-animate" data-aos="zoom-in">
+                                            About
                                         </h3>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row justify-content-center">
-                                <div class="col-md-10">
-                                    <div class="select-section">
-                                        <form action="" class="selectForm">
-                                            <select class="select-box" data-aos="fade-up">
-                                                <option Select>نوع الملكية</option>
-                                                <option value="1">Some option</option>
-                                                <option value="2">Another option</option>
-                                                <option value="3">A option</option>
-                                                <option value="4">Potato</option>
-                                            </select>
-                                            <select class="select-box" data-aos="fade-up">
-                                                <option Select>نوع الوحدة</option>
-                                                <option value="1">Some option</option>
-                                                <option value="2">Another option</option>
-                                                <option value="3">A option</option>
-                                                <option value="4">Potato</option>
-                                            </select>
-                                            <select class="select-box" data-aos="fade-up">
-                                                <option Select>المكان</option>
-                                                <option value="1">Some option</option>
-                                                <option value="2">Another option</option>
-                                                <option value="3">A option</option>
-                                                <option value="4">Potato</option>
-                                            </select>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="row">
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="Project-box">
-                                        <h2 class="Project-title">
-                                            عنوان
-                                        </h2>
-                                        <div class="Project-box-img" style="background-image: url('assets/img/22.png');"></div>
-                                        <a href="#" class="viewBox">
-                                            View
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="Project-box">
-                                        <h2 class="Project-title">
-                                            عنوان
-                                        </h2>
-                                        <div class="Project-box-img" style="background-image: url('assets/img/33.png');"></div>
-                                        <a href="#" class="viewBox">
-                                            View
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="Project-box">
-                                        <h2 class="Project-title">
-                                            عنوان
-                                        </h2>
-                                        <div class="Project-box-img" style="background-image: url('assets/img/22.png');"></div>
-                                        <a href="#" class="viewBox">
-                                            View
-                                        </a>
-                                    </div>
+                                <div class="col-md-12">
+                                    <p class="prag">
+                                        يقع ARMONIA في قلب العاصمة الجديدة ، إنه مكان يلبي جميع أنماط الحياة ، ويضم مجموعة متنوعة من وسائل الراحة الخارجية المختلفة لا مثيل لها.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- end find-our-section -->
+                    <!-- end about-brand -->
 
-                    <!-- start details-section -->
-                    <div class="details-section white-back padding-40">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-12">
-                                    <div class="details-content" data-aos="zoom-in">
-                                        <h2 class="details-title">
-                                            مشاريع سكنية
-                                        </h2>
-                                        <h4 class="details-title-2">
-                                            البيت بيتك.
-                                        </h4>
-                                        <p class="prag">
-                                            تم تصميم شقق Armonia للعيش. يقدم كل سكن شيئًا فريدًا لاكتشاف المزيج المثالي من الإضاءة والراحة والأناقة.
-                                        </p>
-                                        <div class="main-link-box">
-                                            <a href="#">
-                                                اقرا المزيد
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-12">
-                                    <div class="section-back" style="background-image: url(assets/img/22.png);"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- end details-section -->
-
-                    <!-- start details-section -->
-                    <div class="details-section details-section-2 gary-back padding-40">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-12">
-                                    <div class="section-back" style="background-image: url(assets/img/33.png);"></div>
-                                </div>
-                                <div class="col-lg-6 col-md-12">
-                                    <div class="details-content" data-aos="zoom-in">
-                                        <h2 class="details-title">
-                                            مشاريع سكنية
-                                        </h2>
-                                        <h4 class="details-title-2">
-                                            البيت بيتك.
-                                        </h4>
-                                        <p class="prag">
-                                            تم تصميم شقق Armonia للعيش. يقدم كل سكن شيئًا فريدًا لاكتشاف المزيج المثالي من الإضاءة والراحة والأناقة.
-                                        </p>
-                                        <div class="main-link-box">
-                                            <a href="#">
-                                                اقرا المزيد
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- end details-section -->
-
-                    <!-- start request-section -->
-                    <div class="request-section white-back padding-40">
+                    <!-- start floorPaln-section -->
+                    <div class="floorPaln-section padding-20">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <div class="request-form request-content">
-                                        <div class="icone-box" data-aos="zoom-in">
-                                            <i class="far fa-file-alt"></i>
-                                        </div>
-                                        <div class="frist-title">
-                                            <h2 class="mid-title" data-aos="zoom-in">
-                                                تريد أن تطلب وحدة؟ انها نقرة واحدة!
-                                            </h2>
-                                        </div>
-                                        <div class="main-link-box">
-                                            <a href="#">
-                                                نموذج طلب
-                                            </a>
-                                        </div>
+                                    <div class="frist-title2">
+                                        <h3 class="main-title aos-init aos-animate" data-aos="zoom-in">
+                                            خطط المبنى
+                                        </h3>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row justify-content-center">
-                                <div class="col-md-10">
-                                    <div class="letter-section request-content">
-                                        <div class="frist-title" data-aos="zoom-in">
-                                            <h3 class="main-title">
-                                                البريد الاخباري
-                                            </h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="floor-img" data-aos="zoom-in" style="background-image: url(assets/img/floorplan.jpg);"></div>
+                                </div>
+                                <div class="col-md-6 d-flex align-items-center">
+                                    <div class="floor-content">
+                                        <p class="prag">
+                                            فوسس فيسيكولا دولور أركو ، الجلوس أميت بلانديت دولور موليس غير المصنفة في موضعها.
+                                        </p>
+                                        <div class="floor-size">
+                                            <h4 class="flooer-size-title" data-aos="fade-up">
+                                                Size
+                                            </h4>
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <h6 class="size-nmber" data-aos="fade-up">
+                                                        57 m2
+                                                    </h6>
+                                                </li>
+                                                <li class="active-size">
+                                                    <h6 class="size-nmber" data-aos="fade-up">
+                                                        95 m2
+                                                    </h6>
+                                                </li>
+                                                <li>
+                                                    <h6 class="size-nmber" data-aos="fade-up">
+                                                        110 m2
+                                                    </h6>
+                                                </li>
+                                                <li>
+                                                    <h6 class="size-nmber" data-aos="fade-up">
+                                                        141 m2
+                                                    </h6>
+                                                </li>
+                                            </ul>
                                         </div>
-                                        <div class="mail-box" data-aos="fade-up">
-                                            <div class="icone-box" data-aos="zoom-in">
-                                                <i class="far fa-envelope"></i>
-                                            </div>
-                                            <h5 class="mail-box-title">
-                                                تسليم تطوراتنا الفاخرة الجديدة إلى بريدك الوارد
-                                            </h5>
-                                            <p class="prag">
-                                                كن على اطلاع بآخر الأخبار من مشاريعنا وقصصنا وأحداثنا
-                                            </p>
-                                            <form class="mail-form" action="">
-                                                <input type="email" name="email" placeholder="ادخل الميل الخاص بيك" id="email" />
-                                                <button><i class="fas fa-arrow-left"></i></button>
-                                            </form>
+                                        <div class="main-link-box2" data-aos="fade-up">
+                                            <a href="#">
+                                                عرض الكتيب
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- end request-section -->
+                    <!-- end floorPaln-section -->
+
+                    <!-- satrt location-section -->
+                    <div class="location-section padding-20">
+                        <div class="container">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="frist-title2">
+                                            <h3 class="main-title aos-init aos-animate" data-aos="zoom-in">
+                                                موقع ملائم
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="location-content" data-aos="fade-up">
+                                            <p class="prag">
+                                                فوسس فيسيكولا دولور أركو ، الجلوس أميت بلانديت دولور موليس غير مصنف
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <img src="assets/img/Layer4.png" alt="" class="img-fluid" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end  location-section -->
+
+                    <!-- start gallery-section -->
+                    <div class="gallery-section padding-20">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="frist-title2">
+                                        <h3 class="main-title aos-init aos-animate" data-aos="zoom-in">
+                                            معرض الصور
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="gallery-slider">
+                                        <div class="gallery-slider-item">
+                                            <a class="fancy-img-box" data-fancybox="gallery" href="assets/img/slider-img1.png">
+                                                <div class="gallery-slider-item-img" style="background-image: url(assets/img/slider-img1.png);"></div>
+                                            </a>
+                                        </div>
+                                        <div class="gallery-slider-item">
+                                            <a class="fancy-img-box" data-fancybox="gallery" href="assets/img/slider-img2.png">
+                                                <div class="gallery-slider-item-img" style="background-image: url(assets/img/slider-img2.png);"></div>
+                                            </a>
+                                        </div>
+                                        <div class="gallery-slider-item">
+                                            <a class="fancy-img-box" data-fancybox="gallery" href="assets/img/22.png">
+                                                <div class="gallery-slider-item-img" style="background-image: url(assets/img/22.png);"></div>
+                                            </a>
+                                        </div>
+                                        <div class="gallery-slider-item">
+                                            <a class="fancy-img-box" data-fancybox="gallery" href="assets/img/33.png">
+                                                <div class="gallery-slider-item-img" style="background-image: url(assets/img/33.png);"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="main-link-box2" data-aos="fade-up">
+                                        <a href="#">
+                                            عرض الكل
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end gallery-section -->
+
+                    <!-- start masterPlan-section -->
+                    <div class="masterPlan-section padding-20">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="frist-title2">
+                                        <h3 class="main-title aos-init aos-animate" data-aos="zoom-in">
+                                            الخطة الرئيسية
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-8 col-md-12">
+                                    <img src="assets/img/masterPlan.png" class="img-fluid" data-aos="zoom-in" alt="" />
+                                </div>
+                                <div class="col-lg-4 col-md-12">
+                                    <div class="masterPlan-ul">
+                                        <p class="prag" data-aos="zoom-in">
+                                            فوسس فيسيكولا دولور أركو ، الجلوس أميت بلانديت دولور موليس غير المصنفة في موضعها
+                                        </p>
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <h4 class="masterPlan-title" data-aos="fade-up">
+                                                    مدخل
+                                                </h4>
+                                            </li>
+                                            <li>
+                                                <h4 class="masterPlan-title" data-aos="fade-up">
+                                                    عمارات مستقلة
+                                                </h4>
+                                            </li>
+                                            <li>
+                                                <h4 class="masterPlan-title" data-aos="fade-up">
+                                                    مباني محملة مميزة
+                                                </h4>
+                                            </li>
+                                            <li>
+                                                <h4 class="masterPlan-title" data-aos="fade-up">
+                                                    حوض سباحة
+                                                </h4>
+                                            </li>
+                                            <li>
+                                                <h4 class="masterPlan-title" data-aos="fade-up">
+                                                    حوض سباحة
+                                                </h4>
+                                            </li>
+                                            <li>
+                                                <h4 class="masterPlan-title" data-aos="fade-up">
+                                                    سطح البركة
+                                                </h4>
+                                            </li>
+                                            <li>
+                                                <h4 class="masterPlan-title" data-aos="fade-up">
+                                                    قطاع تجاري
+                                                </h4>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- end masterPlan-section -->
+
+                    <!-- start services-amenities-section -->
+
+                    <div class="services-amenities-section padding-20">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="frist-title2">
+                                        <h3 class="main-title aos-init aos-animate" data-aos="zoom-in">
+                                            الخدمات و وسائل الراحة
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="services-mianBox">
+                                        <div class="services-box" data-aos="fade-up">
+                                            <div class="img-box">
+                                                <img src="assets/img/food.svg" alt="" class="img-fluid" />
+                                                <h4 class="services-title">
+                                                    طعام وشراب
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="services-box" data-aos="fade-up">
+                                            <div class="img-box">
+                                                <img src="assets/img/healthcare.svg" alt="" class="img-fluid" />
+                                                <h4 class="services-title">
+                                                    عيادات
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="services-box" data-aos="fade-up">
+                                            <div class="img-box">
+                                                <img src="assets/img/ice-cream-shop.svg" alt="" class="img-fluid" />
+                                                <h4 class="services-title">
+                                                    التجزئة
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="services-box" data-aos="fade-up">
+                                            <div class="img-box">
+                                                <img src="assets/img/office.svg" alt="" class="img-fluid" />
+                                                <h4 class="services-title">
+                                                    مكاتب
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="services-box" data-aos="fade-up">
+                                            <div class="img-box">
+                                                <img src="assets/img/gym.svg" alt="" class="img-fluid" />
+                                                <h4 class="services-title">
+                                                    نادي رياضي
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="services-box" data-aos="fade-up">
+                                            <div class="img-box">
+                                                <img src="assets/img/shop.svg" alt="" class="img-fluid" />
+                                                <h4 class="services-title">
+                                                    سوبر ماركت
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end services-amenities-section -->
                 </main>
             </div>
             <!--           end content-->
@@ -407,32 +512,32 @@
                                 <div class="col-md-3">
                                     <div class="footer-ul">
                                         <h3 class="ul-title gold-title" data-aos="zoom-in">
-                                            مركز مبيعات
+                                            SALES CENTER
                                         </h3>
                                         <ul class="list-unstyled">
                                             <li>
                                                 <a href="#">
-                                                    وسط البلد
+                                                    Downtown
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#">
-                                                    القطامية
+                                                    Katameya
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#">
-                                                    مبنى S1 B ،
+                                                    Building S1 B,
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#">
-                                                    اول القاهرة الجديدة ،
+                                                    First New Cairo,
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#">
-                                                    محافظة القاهرة
+                                                    Cairo Governorate
                                                 </a>
                                             </li>
                                             <li>
@@ -446,22 +551,22 @@
                                 <div class="col-md-3">
                                     <div class="footer-ul">
                                         <h3 class="ul-title">
-                                            المشاريع
+                                            PROJECTS
                                         </h3>
                                         <ul class="list-unstyled">
                                             <li>
                                                 <a href="#">
-                                                    خدمات
+                                                    SERVICES
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#">
-                                                    البنايات
+                                                    BUILDINGS
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#">
-                                                    الطلبات
+                                                    REQUESTS
                                                 </a>
                                             </li>
                                         </ul>
@@ -470,22 +575,22 @@
                                 <div class="col-md-4">
                                     <div class="footer-ul">
                                         <h3 class="ul-title">
-                                            البنود و الظروف
+                                            TERMS & CONDITIONS
                                         </h3>
                                         <ul class="list-unstyled">
                                             <li>
                                                 <a href="#">
-                                                    سياسة خاصة
+                                                    PRIVACY POLICY
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#">
-                                                    أخبار
+                                                    NEWS
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#">
-                                                    الأحداث
+                                                    EVENTS
                                                 </a>
                                             </li>
                                         </ul>
@@ -494,7 +599,7 @@
                                 <div class="col-md-2">
                                     <div class="footer-ul">
                                         <h3 class="ul-title gold-title center-box">
-                                            جهات الاتصال
+                                            CONTACTS
                                         </h3>
                                         <div class="phone-box">
                                             <a href="tel:123">
@@ -507,7 +612,7 @@
                                     </div>
                                     <div class="footer-ul">
                                         <h3 class="ul-title gold-title center-box">
-                                            وسائل الاعلام الاجتماعية
+                                            SOCIAL MEDIA
                                         </h3>
                                         <div class="phone-box">
                                             <a href="#">
@@ -546,7 +651,7 @@
                     <div class="circle"></div>
                 </div>
             </div>
-            <!--           end footer-->
+            <!--           end footer -->
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>

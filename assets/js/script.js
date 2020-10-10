@@ -5,7 +5,7 @@ $(document).ready(function () {
     } else {
         var dir_lang = false;
     }
-    
+
     // open menu
     $(".menu-icon i ").click(function () {
         $(".nav-menu").addClass("open-menu-j");
@@ -19,10 +19,6 @@ $(document).ready(function () {
         $("body").removeClass("body-over-lay");
         $(".over-lay").hide();
     });
-
-
-
-
 
     // window load
     $(window).load(function () {
@@ -40,21 +36,20 @@ $(document).ready(function () {
         fade: true,
         autoplay: true,
         autoplaySpeed: 2000,
-        prevArrow: "<div class='arrow-slider left-arrow'> <i class='fas fa-arrow-left'></i></div>",
-        nextArrow: "<div class='arrow-slider right-arrow'> <i class='fas fa-arrow-right'></i></div>",
+        prevArrow: "<div class='arrow-slider-header left-arrow'> <i class='fas fa-arrow-left'></i></div>",
+        nextArrow: "<div class='arrow-slider-header right-arrow'> <i class='fas fa-arrow-right'></i></div>",
     });
 
     // gallery-slider
 
-    
-    
     $(".gallery-slider").slick({
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
-         autoplay:true,
+        autoplay: true,
         dots: false,
         adaptiveHeight: true,
+        rtl: dir_lang,
         autoplaySpeed: 1000,
         prevArrow: "<div class='arrow-slider2 left-arrow'> <i class='fas fa-arrow-left'></i></div>",
         nextArrow: "<div class='arrow-slider2 right-arrow'> <i class='fas fa-arrow-right'></i></div>",
@@ -71,7 +66,7 @@ $(document).ready(function () {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    arrows:false,
+                    arrows: false,
                 },
             },
         ],
@@ -83,9 +78,10 @@ $(document).ready(function () {
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,
-         autoplay:true,
+        autoplay: true,
         dots: false,
         adaptiveHeight: true,
+        rtl: dir_lang,
         autoplaySpeed: 1000,
         prevArrow: "<div class='arrow-slider2 left-arrow'> <i class='fas fa-arrow-left'></i></div>",
         nextArrow: "<div class='arrow-slider2 right-arrow'> <i class='fas fa-arrow-right'></i></div>",
@@ -102,15 +98,11 @@ $(document).ready(function () {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    arrows:false,
+                    arrows: false,
                 },
             },
         ],
     });
-
-
-
-
 
     // niceSelect
     $(".select-box").niceSelect();

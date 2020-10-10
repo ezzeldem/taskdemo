@@ -104,6 +104,12 @@ body {
         padding: 0 0 20px;
         position: relative;
         display: inline-block;
+        html[lang="ar"] & {
+            &::before {
+                right: -15px !important;
+                left: unset !important;
+            }
+        }
         &::before {
             content: "";
             position: absolute;
@@ -114,6 +120,7 @@ body {
             width: 50px;
             background-color: rgba($gold-color, 1);
             z-index: -1;
+
             animation: animation-title 8s alternate-reverse ease-in-out infinite forwards;
         }
         &:after {
@@ -218,6 +225,112 @@ body {
     }
     &.right-arrow {
         right: -60px;
+    }
+}
+
+.shop-box {
+    position: relative;
+    margin: 10px 0;
+    a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    &:hover {
+        .img-box {
+            .img-hover {
+                transform: scale(1.05);
+                &:after,
+                &::before {
+                    opacity: 1;
+                    transform: scale(1);
+                }
+            }
+            .explore-title {
+                opacity: 1;
+            }
+        }
+    }
+    .img-box {
+        width: 100%;
+        height: 199px;
+        overflow: hidden;
+        position: relative;
+        .explore-title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 22px;
+            font-weight: 600;
+            color: rgba($white-color, 1);
+            opacity: 0;
+            @extend.transtion-4;
+        }
+        .img-hover {
+            height: 100%;
+            width: 100%;
+            @extend.transtion-4;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+
+            &:after {
+                @extend.transtion-4;
+                position: absolute;
+                top: 0;
+
+                right: 0;
+                left: 0;
+                bottom: 0;
+                z-index: -1;
+                background-color: rgba($gray-color2, 0.6);
+                opacity: 0;
+                content: "";
+            }
+            &::before {
+                @extend.transtion-4;
+                position: absolute;
+                border: 1px solid rgba($white-color, 1);
+                top: 20px;
+                right: 20px;
+                left: 20px;
+                bottom: 20px;
+                z-index: 1;
+                transform: scale(0);
+                opacity: 0;
+                content: "";
+                transition-delay: 0.2s;
+            }
+        }
+    }
+
+    .shopDiscription-box {
+        margin: 20px 0;
+        text-align: center;
+        .type-title {
+            font-size: 12px;
+            color: rgba($gray-color2, 1);
+            margin: 0 0 10px;
+            font-weight: 500;
+        }
+        .shop-title {
+            font-size: 22px;
+            color: rgba($gray-color2, 1);
+            margin: 0 0 10px;
+            font-weight: 700;
+        }
+        .city-title {
+            font-size: 14px;
+            color: rgba($gray-color2, 1);
+            margin: 0 0 0px;
+            font-weight: 600;
+        }
     }
 }
 
@@ -392,6 +505,32 @@ body {
 }
 
 // end header-section
+
+
+.arrow-slider-header{
+    top: 50%;
+    position: absolute;
+    transform: translatey(-50%);
+    &.left-arrow{
+        left: 20px;
+        z-index: 888;
+    }
+    &.right-arrow{
+        right: 20px;
+    }
+    i{
+        font-size: 40px;
+        @extend.transtion-4;
+        color: rgba($main-color, 1);
+        cursor: pointer;
+        &:hover{
+            color: rgba($gold-color, 1);
+        }
+    }
+}
+
+
+
 
 // start intro-section
 
@@ -983,8 +1122,6 @@ body {
     }
 }
 
-// end detailsProject-page
-
 .about-brand {
     .main-title {
         margin: 0 0 30px 0;
@@ -1013,6 +1150,9 @@ body {
             ul {
                 display: flex;
                 flex-wrap: wrap;
+                html[lang="ar"] & {
+                    justify-content: flex-end;
+                }
                 li {
                     margin: 20px 30px 20px 0;
                     html[lang="ar"] & {
@@ -1063,6 +1203,9 @@ body {
     .location-content {
         .prag {
             width: 70%;
+            html[lang="ar"] & {
+                margin-left: auto;
+            }
         }
     }
 
@@ -1401,3 +1544,143 @@ body {
         }
     }
 }
+
+// end detailsProject-page
+
+// start Commercial Projects
+
+// start big-banner-sectoin
+
+.big-banner-sectoin {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding: 200px 0 100px;
+    &::after {
+        position: absolute;
+        content: "";
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba($gray-color2, 0.2);
+    }
+    .banner-title {
+        margin: 20px 0;
+        .title-bigBanner {
+            margin: 10px;
+            font-size: 70px;
+            color: rgba($white-color, 1);
+            font-weight: 600;
+            &:nth-child(2) {
+                margin: 10px 241px;
+            }
+        }
+    }
+}
+
+// end big-banner-sectoin
+
+// start  page-number-section
+
+.page-number-section {
+    .page-number-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .arrow-nextPage-box {
+            margin: 0 20px 20px;
+            .arrow-nextPage {
+                i {
+                    border: 1px solid rgba($main-color, 0.6);
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 40px;
+                    height: 40px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    @extend.transtion-4;
+                    color: rgba($main-color, 0.6);
+                    &:hover {
+                        color: rgba($main-color, 1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+// end  page-number-section
+
+// start last-banner-section
+
+.last-banner-section {
+    padding: 150px 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    &::after {
+        position: absolute;
+        content: "";
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba($gray-color2, 0.2);
+    }
+
+    .banner-text {
+        font-size: 40px;
+        font-weight: 700;
+        color: rgba($main-color, 1);
+    }
+}
+
+// end last-banner-section
+
+@media (max-width: 992px) {
+    .big-banner-sectoin {
+        padding: 120px 0 62px;
+        .banner-title {
+            .title-bigBanner {
+                font-size: 42px;
+            }
+        }
+    }
+}
+@media (max-width: 772px) {
+    .big-banner-sectoin {
+        padding: 60px 0 44px;
+        text-align: center;
+        .logo-box {
+            .logo-link {
+                img {
+                    height: 42px;
+                }
+            }
+        }
+        .banner-title {
+            .title-bigBanner {
+                font-size: 22px;
+                &:nth-child(2) {
+                    margin: 10px 0px;
+                }
+            }
+        }
+    }
+
+    .last-banner-section {
+        padding: 60px 0;
+        .banner-text {
+            font-size: 20px;
+        }
+    }
+}
+
+// end Commercial Projects
