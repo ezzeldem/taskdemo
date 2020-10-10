@@ -46,7 +46,7 @@ html[lang="ar"] .open-menu-j {
   padding: 35px 0;
 }
 
-.transtion-4, .main-link-box a, .main-link-box2 a, .header-section .header-box .menu-icon i, .header-section .header-box .header-icon ul li a, .header-section .header-box .header-icon .lang-box a, .header-section .nav-menu, .header-section .nav-menu ul li, .header-section .nav-menu ul li a, .header-section .nav-menu .close-menu i, .intro-section .intro-slider .arrow-slider i, .find-our-section .Project-box .viewBox, .footer-content .footer-ul .phone-box a, .footer-content .footer-ul ul li a, .floorPaln-section .floor-content .floor-size ul li .size-nmber, .gallery-section .gallery-slider .arrow-slider i, .gallery-section .gallery-slider .gallery-slider-item .fancy-img-box .gallery-slider-item-img, .gallery-section .gallery-slider .gallery-slider-item .fancy-img-box .gallery-slider-item-img:after, .gallery-section .gallery-slider .gallery-slider-item .fancy-img-box .gallery-slider-item-img::before {
+.transtion-4, .main-link-box a, .main-link-box2 a, .arrow-slider2 i, .header-section .header-box .menu-icon i, .header-section .header-box .header-icon ul li a, .header-section .header-box .header-icon .lang-box a, .header-section .nav-menu, .header-section .nav-menu ul li, .header-section .nav-menu ul li a, .header-section .nav-menu .close-menu i, .find-our-section .Project-box .viewBox, .footer-content .footer-ul .phone-box a, .footer-content .footer-ul ul li a, .floorPaln-section .floor-content .floor-size ul li .size-nmber, .gallery-section .gallery-slider .gallery-slider-item .fancy-img-box .gallery-slider-item-img, .gallery-section .gallery-slider .gallery-slider-item .fancy-img-box .gallery-slider-item-img:after, .gallery-section .gallery-slider .gallery-slider-item .fancy-img-box .gallery-slider-item-img::before {
   transition: 0.4s all ease-in-out;
 }
 
@@ -99,7 +99,7 @@ html[lang="ar"] .open-menu-j {
   width: 50px;
   background-color: #ffc725;
   z-index: -1;
-  animation: animation-title 8s alternate-reverse  ease-in-out infinite forwards;
+  animation: animation-title 8s alternate-reverse ease-in-out infinite forwards;
 }
 .frist-title2 .main-title:after {
   content: "";
@@ -167,6 +167,36 @@ html[lang="ar"] .open-menu-j {
   background-color: #090909;
   transform: translateY(-3px);
   box-shadow: 4px 4px 5px rgba(52, 52, 52, 0.2);
+}
+
+.arrow-slider2 {
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 22;
+}
+.arrow-slider2 i {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #090909;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #090909;
+  font-size: 20px;
+}
+.arrow-slider2 i:hover {
+  background-color: white;
+  color: #090909;
+}
+.arrow-slider2.left-arrow {
+  left: -75px;
+}
+.arrow-slider2.right-arrow {
+  right: -60px;
 }
 
 .header-section {
@@ -320,26 +350,6 @@ html[lang="ar"] .header-section .nav-menu .close-menu {
 }
 .intro-section .intro-slider {
   margin: 0 -15px;
-}
-.intro-section .intro-slider .arrow-slider {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 7;
-}
-.intro-section .intro-slider .arrow-slider i {
-  font-size: 40px;
-  color: #090909;
-  cursor: pointer;
-}
-.intro-section .intro-slider .arrow-slider i:hover {
-  color: #ffc725;
-}
-.intro-section .intro-slider .arrow-slider.left-arrow {
-  left: 50px;
-}
-.intro-section .intro-slider .arrow-slider.right-arrow {
-  right: 50px;
 }
 .intro-section .intro-slider .intro-slider-item {
   height: 90vh;
@@ -649,7 +659,8 @@ html[lang="ar"] .request-section .request-content .mail-box .mail-form button {
   }
 }
 @media (max-width: 772px) {
-  .prag, .prag2 {
+  .prag,
+  .prag2 {
     font-size: 14px;
   }
 
@@ -743,7 +754,8 @@ html[lang="ar"] .request-section .request-content .mail-box .mail-form button {
   .details-section .details-content .details-title-2 {
     font-size: 20px;
   }
-  .details-section .prag, .details-section .prag2 {
+  .details-section .prag,
+  .details-section .prag2 {
     font-size: 18px !important;
   }
 
@@ -819,6 +831,10 @@ html[lang="ar"] .request-section .request-content .mail-box .mail-form button {
   font-weight: 500;
 }
 
+.about-brand .main-title {
+  margin: 0 0 60px 0;
+}
+
 .floorPaln-section .floor-img {
   background-position: center;
   background-repeat: no-repeat;
@@ -840,10 +856,10 @@ html[lang="ar"] .request-section .request-content .mail-box .mail-form button {
   flex-wrap: wrap;
 }
 .floorPaln-section .floor-content .floor-size ul li {
-  margin: 20px  30px 20px 0;
+  margin: 20px 30px 20px 0;
 }
 html[lang="ar"] .floorPaln-section .floor-content .floor-size ul li {
-  margin: 20px  0px 20px 30px;
+  margin: 20px 0px 20px 30px;
 }
 .floorPaln-section .floor-content .floor-size ul li.active-size .size-nmber {
   transform: scale(1.04) translateY(-3px);
@@ -889,41 +905,12 @@ html[lang="ar"] .floorPaln-section .floor-content .floor-size ul li {
   margin: 30px 0;
   text-align: center;
 }
-.gallery-section .gallery-slider .arrow-slider {
-  top: 50%;
-  transform: translateY(-50%);
-  position: absolute;
-  z-index: 22;
-}
-.gallery-section .gallery-slider .arrow-slider i {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  background-color: #090909;
-  cursor: pointer;
-  border-radius: 50%;
-  border: 1px solid #090909;
-  font-size: 20px;
-}
-.gallery-section .gallery-slider .arrow-slider i:hover {
-  background-color: white;
-  color: #090909;
-}
-.gallery-section .gallery-slider .arrow-slider.left-arrow {
-  left: -75px;
-}
-.gallery-section .gallery-slider .arrow-slider.right-arrow {
-  right: -60px;
-}
 .gallery-section .gallery-slider .gallery-slider-item:hover .fancy-img-box .gallery-slider-item-img {
   transform: scale(1.05);
 }
 .gallery-section .gallery-slider .gallery-slider-item .fancy-img-box {
   height: 400px;
-  width: calc(100% - 20px ) !important;
+  width: calc(100% - 20px) !important;
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
@@ -965,7 +952,7 @@ html[lang="ar"] .floorPaln-section .floor-content .floor-size ul li {
   transform: scale(0);
   opacity: 0;
   content: "";
-  transition-delay: .2s;
+  transition-delay: 0.2s;
 }
 
 .masterPlan-section .frist-title2 .main-title {
@@ -1016,6 +1003,7 @@ html[lang="ar"] .floorPaln-section .floor-content .floor-size ul li {
 .services-amenities-section .services-mianBox .services-box .img-box img {
   width: 70px;
   height: 70px;
+  margin: 0 auto;
 }
 .services-amenities-section .services-mianBox .services-box .img-box .services-title {
   margin: 20px 0;

@@ -46,6 +46,8 @@ $(document).ready(function () {
 
     // gallery-slider
 
+    
+    
     $(".gallery-slider").slick({
         infinite: true,
         slidesToShow: 3,
@@ -54,8 +56,8 @@ $(document).ready(function () {
         dots: false,
         adaptiveHeight: true,
         autoplaySpeed: 1000,
-        prevArrow: "<div class='arrow-slider left-arrow'> <i class='fas fa-arrow-left'></i></div>",
-        nextArrow: "<div class='arrow-slider right-arrow'> <i class='fas fa-arrow-right'></i></div>",
+        prevArrow: "<div class='arrow-slider2 left-arrow'> <i class='fas fa-arrow-left'></i></div>",
+        nextArrow: "<div class='arrow-slider2 right-arrow'> <i class='fas fa-arrow-right'></i></div>",
         responsive: [
             {
                 breakpoint: 992,
@@ -74,7 +76,35 @@ $(document).ready(function () {
         ],
     });
 
+    //services-mianBox
 
+    $(".services-mianBox").slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        //  autoplay:true,
+        dots: false,
+        adaptiveHeight: true,
+        autoplaySpeed: 1000,
+        prevArrow: "<div class='arrow-slider2 left-arrow'> <i class='fas fa-arrow-left'></i></div>",
+        nextArrow: "<div class='arrow-slider2 right-arrow'> <i class='fas fa-arrow-right'></i></div>",
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 772,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
+    });
 
 
 
