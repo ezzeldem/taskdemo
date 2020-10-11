@@ -46,7 +46,7 @@ html[lang="ar"] .open-menu-j {
   padding: 15px 0;
 }
 
-.transtion-4, .main-link-box a, .main-link-box2 a, .arrow-slider2 i, .shop-box .img-box .explore-title, .shop-box .img-box .img-hover, .shop-box .img-box .img-hover:after, .shop-box .img-box .img-hover::before, .header-section .header-box .menu-icon i, .header-section .header-box .header-icon ul li a, .header-section .header-box .header-icon .lang-box a, .header-section .nav-menu, .header-section .nav-menu ul li, .header-section .nav-menu ul li a, .header-section .nav-menu .close-menu i, .arrow-slider-header i, .find-our-section .Project-box .viewBox, .footer-content .footer-ul .phone-box a, .footer-content .footer-ul ul li a, .floorPaln-section .floor-content .floor-size ul li .size-nmber, .gallery-section .gallery-slider .gallery-slider-item .fancy-img-box .gallery-slider-item-img, .gallery-section .gallery-slider .gallery-slider-item .fancy-img-box .gallery-slider-item-img:after, .gallery-section .gallery-slider .gallery-slider-item .fancy-img-box .gallery-slider-item-img::before, .services-amenities-section .services-mianBox .services-box .img-box, .page-number-section .page-number-box .arrow-nextPage-box .arrow-nextPage i {
+.transtion-4, .main-link-box a, .main-link-box2 a, .arrow-slider2 i, .shop-box .img-box .explore-title, .shop-box .img-box .img-hover, .shop-box .img-box .img-hover:after, .shop-box .img-box .img-hover::before, .header-section .header-box .menu-icon i, .header-section .header-box .header-icon ul li a, .header-section .header-box .header-icon .lang-box a, .header-section .nav-menu, .header-section .nav-menu ul li, .header-section .nav-menu ul li a, .header-section .nav-menu .close-menu i, .arrow-slider-header i, .find-our-section .Project-box .viewBox, .footer-content .footer-ul .phone-box a, .footer-content .footer-ul ul li a, .floorPaln-section .floor-content .floor-size ul li .size-nmber, .gallery-section .gallery-slider .gallery-slider-item .fancy-img-box .gallery-slider-item-img, .gallery-section .gallery-slider .gallery-slider-item .fancy-img-box .gallery-slider-item-img:after, .gallery-section .gallery-slider .gallery-slider-item .fancy-img-box .gallery-slider-item-img::before, .services-amenities-section .services-mianBox .services-box .img-box, .request-section .request-form .form-group input, .request-section .request-form .main-link-box2 button, .page-number-section .page-number-box .arrow-nextPage-box .arrow-nextPage i {
   transition: 0.4s all ease-in-out;
 }
 
@@ -1161,6 +1161,69 @@ html[lang="ar"] .location-section .location-content .prag {
     transform: translate(10px, -10px);
   }
 }
+.request-section .frist-title2 {
+  margin: 0 0 30px;
+}
+.request-section .request-form .form-group {
+  margin: 10px 0;
+}
+.request-section .request-form .form-group .lable-name {
+  font-size: 18px;
+  color: #090909;
+  display: block;
+  font-weight: 500;
+}
+.request-section .request-form .form-group input {
+  width: 100%;
+  height: 47px;
+  border-radius: 5px;
+  border: 1px solid rgba(9, 9, 9, 0.4);
+}
+.request-section .request-form .form-group input:hover {
+  border: 1px solid #343434;
+}
+.request-section .request-form .form-group input:focus {
+  border: 1px solid #ffc725;
+  outline: unset !important;
+  box-shadow: unset;
+}
+.request-section .request-form .form-group .nice-select, .request-section .request-form .form-group .list {
+  width: 100%;
+}
+html[lang="ar"] .request-section .request-form .form-group .nice-select:after,
+html[lang="ar"] .request-section .request-form .form-group .list:after {
+  left: 12px;
+  right: unset;
+}
+html[lang="ar"] .request-section .request-form .form-group .nice-select:first-of-type,
+html[lang="ar"] .request-section .request-form .form-group .list:first-of-type {
+  border-left: 3px solid #343434 !important;
+}
+html[lang="ar"] .request-section .request-form .form-group .nice-select:last-of-type,
+html[lang="ar"] .request-section .request-form .form-group .list:last-of-type {
+  border-left: 0px solid #343434 !important;
+}
+.request-section .request-form .main-link-box2 {
+  margin: 20px 0 0;
+  text-align: center;
+}
+.request-section .request-form .main-link-box2 button {
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: #090909;
+  font-size: 18px;
+  background-color: #ffc725;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+.request-section .request-form .main-link-box2 button:hover {
+  color: #ffc725;
+  background-color: #090909;
+  transform: translateY(-3px);
+  box-shadow: 4px 4px 5px rgba(52, 52, 52, 0.2);
+}
+
 @media (max-width: 1200px) {
   .masterPlan-section .masterPlan-ul .prag {
     font-size: 16px;

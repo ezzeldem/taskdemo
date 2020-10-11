@@ -506,31 +506,27 @@ body {
 
 // end header-section
 
-
-.arrow-slider-header{
+.arrow-slider-header {
     top: 50%;
     position: absolute;
     transform: translatey(-50%);
-    &.left-arrow{
+    &.left-arrow {
         left: 20px;
         z-index: 888;
     }
-    &.right-arrow{
+    &.right-arrow {
         right: 20px;
     }
-    i{
+    i {
         font-size: 40px;
         @extend.transtion-4;
         color: rgba($main-color, 1);
         cursor: pointer;
-        &:hover{
+        &:hover {
             color: rgba($gold-color, 1);
         }
     }
 }
-
-
-
 
 // start intro-section
 
@@ -1401,6 +1397,76 @@ body {
     }
     100% {
         transform: translate(10px, -10px);
+    }
+}
+
+.request-section {
+    .frist-title2 {
+        margin: 0 0 30px;
+    }
+
+    .request-form {
+        .form-group {
+            margin: 10px 0;
+            .lable-name {
+                font-size: 18px;
+                color: rgba($main-color, 1);
+                display: block;
+                font-weight: 500;
+            }
+            input {
+                width: 100%;
+                height: 47px;
+                border-radius: 5px;
+                border: 1px solid rgba($main-color, 0.4);
+                @extend.transtion-4;
+                &:hover {
+                    border: 1px solid rgba($brown-color, 1);
+                }
+                &:focus {
+                    border: 1px solid rgba($gold-color, 1);
+                    outline: unset !important;
+                    box-shadow: unset;
+                }
+            }
+            .nice-select,
+            .list {
+                width: 100%;
+                html[lang="ar"] & {
+                    &:after {
+                        left: 12px;
+                        right: unset;
+                    }
+                    &:first-of-type {
+                        border-left: 3px solid rgba($brown-color, 1) !important;
+                    }
+                    &:last-of-type {
+                        border-left: 0px solid rgba($brown-color, 1) !important;
+                    }
+                }
+            }
+        }
+        .main-link-box2 {
+            margin: 20px 0 0;
+            text-align: center;
+            button {
+                padding: 10px 30px;
+                border-radius: 30px;
+                color: rgba($main-color, 1);
+                font-size: 18px;
+                background-color: rgba($gold-color, 1);
+                @extend.transtion-4;
+                font-weight: 600;
+                cursor: pointer;
+                border: none;
+                &:hover {
+                    color: rgba($gold-color, 1);
+                    background-color: rgba($main-color, 1);
+                    transform: translateY(-3px);
+                    box-shadow: 4px 4px 5px rgba($brown-color, 0.2);
+                }
+            }
+        }
     }
 }
 
