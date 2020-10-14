@@ -1071,6 +1071,14 @@ html[lang="ar"] .intro2-section .intro-content .intro-title {
     padding: 64px 44px;
     height: unset;
   }
+  .project-section .banner-project .side-bottom {
+    right: 50%;
+    transform: translateX(50%);
+  }
+  .project-section .banner-project.banner-project2 .side-bottom {
+    left: 50%;
+    transform: translateX(-50%);
+  }
   .project-section .banner-project .banner-content .banner-title {
     font-size: 41px;
     margin: 0 0 71px;

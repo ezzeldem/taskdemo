@@ -1281,6 +1281,19 @@ body {
         .banner-project {
             padding: 64px 44px;
             height: unset;
+
+            .side-bottom{
+                right: 50%;
+                transform: translateX(50%);
+            }
+
+                &.banner-project2{
+                    .side-bottom{
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+
             .banner-content {
                 .banner-title {
                     font-size: 41px;
