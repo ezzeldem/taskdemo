@@ -91,7 +91,43 @@ $(document).ready(function () {
     });
 
     //services-mianBox
+    // new-slider
+    $(".new-slider").slick({
+        dots: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        rtl: dir_lang,
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows:false,
+    });
 
+
+
+       // blog-slider
+
+       $(".blog-slider").slick({
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        dots: false,
+        adaptiveHeight: true,
+        rtl: dir_lang,
+        autoplaySpeed: 1000,
+        arrows:false,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            }
+        ],
+    });
 
 
 
