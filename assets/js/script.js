@@ -40,30 +40,48 @@ $(document).ready(function () {
         nextArrow: "<div class='arrow-slider-header right-arrow'> <i class='fas fa-arrow-right'></i></div>",
     });
 
-    // gallery-slider
 
-    $(".gallery-slider").slick({
+        // photo-slider
+        $(".photo-slider").slick({
+            dots: false,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            rtl: dir_lang,
+            // autoplay: true,
+            autoplaySpeed: 4000,
+            prevArrow: "<div class='arrow-slider-photo left-arrow'> <i class='fas fa-angle-left'></i></div>",
+            nextArrow: "<div class='arrow-slider-photo right-arrow'> <i class='fas fa-angle-right'></i></div>",
+        });
+
+    // vedio-slider
+
+    $(".vedio-slider").slick({
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
+        // autoplay: true,
         dots: false,
         adaptiveHeight: true,
         rtl: dir_lang,
         autoplaySpeed: 1000,
-        prevArrow: "<div class='arrow-slider2 left-arrow'> <i class='fas fa-arrow-left'></i></div>",
-        nextArrow: "<div class='arrow-slider2 right-arrow'> <i class='fas fa-arrow-right'></i></div>",
+        centerMode: true,
+        centerPadding: '20px',
+        arrows:false,
         responsive: [
             {
                 breakpoint: 992,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
+                    centerMode: false,
                 },
             },
             {
                 breakpoint: 772,
                 settings: {
+                    centerMode: false,
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     arrows: false,
@@ -74,35 +92,9 @@ $(document).ready(function () {
 
     //services-mianBox
 
-    $(".services-mianBox").slick({
-        infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: true,
-        dots: false,
-        adaptiveHeight: true,
-        rtl: dir_lang,
-        autoplaySpeed: 1000,
-        prevArrow: "<div class='arrow-slider2 left-arrow'> <i class='fas fa-arrow-left'></i></div>",
-        nextArrow: "<div class='arrow-slider2 right-arrow'> <i class='fas fa-arrow-right'></i></div>",
-        responsive: [
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                },
-            },
-            {
-                breakpoint: 772,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    arrows: false,
-                },
-            },
-        ],
-    });
+
+
+
 
     // niceSelect
     $(".select-box").niceSelect();
