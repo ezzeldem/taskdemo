@@ -1188,6 +1188,27 @@ body {
         height: 650px;
         display: flex;
         align-items: center;
+        &.banner-project2{
+            .side-bottom{
+                right: unset;
+                left: -36px;
+            }
+        }
+        .side-bottom{
+            position: absolute;
+            top: 50%;
+            right: -36px;
+            width: 70px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgba($white-color, 1);
+            background-color: rgba($gold-color, 1);
+            border-radius: 50%;
+            font-size: 40px;
+            }
+
         &::after {
             content: "";
             top: 0;

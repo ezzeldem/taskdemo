@@ -996,6 +996,24 @@ html[lang="ar"] .intro2-section .intro-content .intro-title {
   display: flex;
   align-items: center;
 }
+.project-section .banner-project.banner-project2 .side-bottom {
+  right: unset;
+  left: -36px;
+}
+.project-section .banner-project .side-bottom {
+  position: absolute;
+  top: 50%;
+  right: -36px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #ffc725;
+  border-radius: 50%;
+  font-size: 40px;
+}
 .project-section .banner-project::after {
   content: "";
   top: 0;
