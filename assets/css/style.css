@@ -1074,6 +1074,9 @@ html[lang="ar"] .intro2-section .intro-content .intro-title {
   .project-section .banner-project .side-bottom {
     right: 50%;
     transform: translateX(50%);
+    width: 50px;
+    height: 50px;
+    font-size: 34px;
   }
   .project-section .banner-project.banner-project2 .side-bottom {
     left: 50%;
