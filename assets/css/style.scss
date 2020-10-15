@@ -2947,3 +2947,26 @@ body {
         font-size: 20px;
     }
 }
+
+
+.chat-head{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    background-color: rgba($gold-color, 1);
+    color: rgba($main-color, 1);
+    @extend.transtion-4;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 3px 3px 8px rgba($main-color, 0.3);
+    &:hover{
+        bottom: 35px;
+        background-color: rgba($white-color, 1);
+    }
+}
