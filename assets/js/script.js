@@ -110,7 +110,6 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         rtl: dir_lang,
-        fade: true,
         autoplay: true,
         autoplaySpeed: 2000,
         dots:false,
