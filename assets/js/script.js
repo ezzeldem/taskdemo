@@ -103,6 +103,19 @@ $(document).ready(function () {
         autoplaySpeed: 2000,
         arrows:false,
     });
+    // details-galler-slider
+    $(".details-galler-slider").slick({
+        dots: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        rtl: dir_lang,
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots:false,
+        arrows:false,
+    });
 
 
 
