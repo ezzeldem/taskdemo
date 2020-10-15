@@ -1950,10 +1950,11 @@ html[lang="ar"] .floorPalns-section .size-box .size-title-box .size-title::after
 .floorPalns-section .size-box .size-ul {
   padding: 20px 40px;
 }
-.floorPalns-section .size-box .size-ul ul {
-  text-align: center;
+.floorPalns-section .size-box .size-ul .list-group {
+  display: flex;
+  flex-wrap: wrap;
 }
-.floorPalns-section .size-box .size-ul ul li {
+.floorPalns-section .size-box .size-ul .list-group a {
   width: 145px;
   height: 145px;
   display: flex;
@@ -1965,9 +1966,10 @@ html[lang="ar"] .floorPalns-section .size-box .size-title-box .size-title::after
   border: 1px solid white;
   transition: 0.2s all ease-in-out;
   margin: 20px 0;
+  background-color: transparent;
 }
-.floorPalns-section .size-box .size-ul ul li:hover, .floorPalns-section .size-box .size-ul ul li.active-size {
-  border: 5px solid white;
+.floorPalns-section .size-box .size-ul .list-group a.active {
+  border: 4px solid white;
 }
 
 .location-section .img-location {
@@ -2112,12 +2114,16 @@ html[lang="ar"] .floorPalns-section .size-box .size-title-box .size-title::after
     height: 69px;
   }
 
-  .floorPalns-section .size-box .size-ul ul {
+  .floorPalns-section .size-box {
+    margin: 0 0 20px;
+  }
+  .floorPalns-section .size-box .size-ul .list-group {
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
   }
-  .floorPalns-section .size-box .size-ul ul li {
+  .floorPalns-section .size-box .size-ul .list-group a {
     margin: 10px 20px;
     width: 100px;
     height: 100px;
@@ -2156,7 +2162,7 @@ html[lang="ar"] .floorPalns-section .size-box .size-title-box .size-title::after
   .floorPalns-section::after {
     display: none;
   }
-  .floorPalns-section .size-box .size-ul ul li {
+  .floorPalns-section .size-box .size-ul .list-group a {
     margin: 2px;
     width: 75px;
     height: 73px;
