@@ -2835,6 +2835,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
+
+    .careers-section-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
     .careers-form-box {
         .careers-form {
             .uplode-file {
@@ -2861,7 +2869,7 @@ body {
             }
             textarea {
                 padding: 30px;
-                height: 330px;
+                height: 198px;
                 width: 100%;
             }
             input {
@@ -2885,6 +2893,9 @@ body {
                 }
             }
         }
+    }
+    .anter-cole{
+        margin: 31px 0 0;
     }
 }
 
@@ -2931,5 +2942,8 @@ body {
                 }
             }
         }
+    }
+    .contact-title2{
+        font-size: 20px;
     }
 }

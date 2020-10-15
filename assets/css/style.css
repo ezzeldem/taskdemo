@@ -2344,6 +2344,12 @@ html[lang="ar"] .floorPalns-section .size-box .size-title-box .size-title::after
   background-repeat: no-repeat;
   background-size: cover;
 }
+.careers-section .careers-section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .careers-section .careers-form-box .careers-form .uplode-file {
   padding: 20px 10px;
   background-color: white;
@@ -2368,7 +2374,7 @@ html[lang="ar"] .floorPalns-section .size-box .size-title-box .size-title::after
 }
 .careers-section .careers-form-box .careers-form textarea {
   padding: 30px;
-  height: 330px;
+  height: 198px;
   width: 100%;
 }
 .careers-section .careers-form-box .careers-form input {
@@ -2388,6 +2394,9 @@ html[lang="ar"] .floorPalns-section .size-box .size-title-box .size-title::after
 .careers-section .careers-form-box .careers-form .form-button:hover {
   background-color: #090909;
   color: white;
+}
+.careers-section .anter-cole {
+  margin: 31px 0 0;
 }
 
 @media (max-width: 992px) {
@@ -2415,5 +2424,9 @@ html[lang="ar"] .floorPalns-section .size-box .size-title-box .size-title::after
 
   .contact-section .content-form .form-group textarea {
     height: 200px;
+  }
+
+  .contact-title2 {
+    font-size: 20px;
   }
 }
