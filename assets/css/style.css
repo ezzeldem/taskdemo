@@ -2260,3 +2260,11 @@ html[lang="ar"] .floorPalns-section .size-box .size-title-box .size-title::after
     padding: 46px 0;
   }
 }
+.ifream-section {
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.modal-dialog {
+  max-width: unset !important;
+}
