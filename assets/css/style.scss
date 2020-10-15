@@ -2336,10 +2336,10 @@ body {
         }
         .size-ul {
             padding: 20px 40px;
-            .list-group{
+            .list-group {
                 display: flex;
                 flex-wrap: wrap;
-                    a{
+                a {
                     width: 145px;
                     height: 145px;
                     display: flex;
@@ -2356,9 +2356,8 @@ body {
                         border: 4px solid rgba($white-color, 1);
                     }
                 }
-                }
             }
-        
+        }
     }
 }
 
@@ -2514,6 +2513,13 @@ body {
         }
     }
 }
+.bank-img {
+    .bank-link {
+        img {
+            height: 27px;
+        }
+    }
+}
 
 // banner-up-footer
 
@@ -2558,13 +2564,12 @@ body {
                     display: flex;
                     flex-wrap: wrap;
                     flex-direction: row;
-                        a{
+                    a {
                         margin: 10px 20px;
                         width: 100px;
                         height: 100px;
                         font-size: 20px;
-                    
-                }
+                    }
                 }
             }
         }
@@ -2611,14 +2616,13 @@ body {
         }
         .size-box {
             .size-ul {
-                .list-group{
-                        a{
+                .list-group {
+                    a {
                         margin: 2px;
                         width: 75px;
                         height: 73px;
                         font-size: 14px;
-                    
-                }
+                    }
                 }
             }
         }
@@ -2736,17 +2740,196 @@ body {
     }
 }
 
-
-
 // ifream-section
 
-.ifream-section{
+.ifream-section {
     margin: 0 0 20px;
     text-align: center;
 }
 
-.modal-dialog{
+.modal-dialog {
     max-width: unset !important;
 }
 
 // end ifream-section
+
+.contact-title {
+    margin: 0 0 30px;
+    font-size: 80px;
+    font-weight: 800;
+    display: inline-block;
+    color: rgba($main-color, 1);
+}
+
+.contact-title2 {
+    margin: 0 0 30px;
+    font-size: 40px;
+    font-weight: 600;
+    display: inline-block;
+    color: rgba($main-color, 1);
+}
+
+// start contact-section
+.contact-section {
+    padding: 120px 0;
+    background-color: rgba($gray-color3, 1);
+    .map {
+        height: 100%;
+    }
+
+    .content-form {
+        .form-button {
+            text-align: center;
+            width: 100%;
+            font-size: 30px;
+            font-weight: 800;
+            padding: 10px;
+            background-color: rgba($gold-color, 1);
+            @extend.transtion-4;
+            border: 0;
+            color: rgba($main-color, 1);
+            border-radius: 7px;
+            &:hover {
+                background-color: rgba($main-color, 1);
+                color: rgba($white-color, 1);
+            }
+        }
+
+        .form-group {
+            .nice-select {
+                width: 100%;
+                margin: 30px 0;
+                .list {
+                    width: 100%;
+                }
+            }
+
+            textarea,
+            input {
+                border-radius: 5px;
+                border: 1px sans-serif rgba($main-color, 1);
+                &:focus {
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
+            textarea {
+                padding: 30px;
+                height: 330px;
+                width: 100%;
+            }
+            input {
+                padding: 0 20px;
+                height: 60px;
+            }
+        }
+    }
+}
+// end contact-section
+
+// start careers-section
+
+.careers-section {
+    padding: 100px 0 170px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .careers-form-box {
+        .careers-form {
+            .uplode-file {
+                padding: 20px 10px;
+                background-color: rgba($white-color, 1);
+                border-radius: 10px;
+            }
+
+            .nice-select {
+                width: 100%;
+                margin: 30px 0;
+                .list {
+                    width: 100%;
+                }
+            }
+            textarea,
+            input {
+                border-radius: 5px;
+                border: 1px sans-serif rgba($main-color, 1);
+                &:focus {
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
+            textarea {
+                padding: 30px;
+                height: 330px;
+                width: 100%;
+            }
+            input {
+                padding: 0 20px;
+                height: 40px;
+            }
+
+            .form-button {
+                text-align: center;
+                font-size: 18px;
+                font-weight: 500;
+                padding: 5px 38px;
+                background-color: rgba($white-color, 1);
+                @extend.transtion-4;
+                border: 1px solid rgba($main-color, 0.4);
+                color: rgba($main-color, 1);
+                border-radius: 7px;
+                &:hover {
+                    background-color: rgba($main-color, 1);
+                    color: rgba($white-color, 1);
+                }
+            }
+        }
+    }
+}
+
+// end careers-section
+
+@media (max-width: 992px) {
+    .contact-title {
+        font-size: 34px;
+    }
+
+    .contact-section {
+        padding: 38px 0;
+
+        .content-form {
+            .form-button {
+                font-size: 22px;
+            }
+        }
+        .map {
+            margin: 20px 0;
+        }
+    }
+}
+
+@media (max-width: 772px) {
+    .careers-section {
+        .careers-form-box {
+            .careers-form {
+                textarea {
+                    height: 200px;
+                }
+                input {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .contact-section {
+        .content-form {
+            .form-group {
+                textarea {
+                    height: 200px;
+                }
+            }
+        }
+    }
+}

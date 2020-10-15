@@ -55,7 +55,7 @@ html[lang="ar"] .open-menu-j {
   padding: 15px 0;
 }
 
-.transtion-4, .main-link-box a, .main-link-box2 a, .arrow-slider2 i, .shop-box .img-box .explore-title, .shop-box .img-box .img-hover, .shop-box .img-box .img-hover:after, .shop-box .img-box .img-hover::before, .header-section .header-box .menu-icon i, .header-section .header-box .header-icon ul li a, .header-section .header-box .header-icon .lang-box a, .header-section .nav-menu, .header-section .nav-menu ul li, .header-section .nav-menu ul li a, .header-section .nav-menu .close-menu i, .arrow-slider-header i, .find-our-section .Project-box .viewBox, .footer-content .footer-ul .phone-box a, .footer-content .footer-ul ul li a, .project-section .banner-project .banner-content .main-link-box, .photoGallery-section .photo-slider .arrow-slider-photo, .photoGallery-section .photo-slider .photo-slider-item .photo-box:after, .photoGallery-section .photo-slider .photo-slider-item .photo-box .view-title, .vedioGallery-section .vedio-slider .vedio-slider-item .vedio-box .img-box .vedioGallery-popup, .blog-bottom .link, .news-section .news-slider-box:after, .news-section .news-slider-box .new-slider .slick-dots li button:before, .news-section .last-work-section .moreEvents-box .more-link, .blog-popUp-box, .blog-popUp-box .close-menu i, .bottom-3 .link-3 {
+.transtion-4, .main-link-box a, .main-link-box2 a, .arrow-slider2 i, .shop-box .img-box .explore-title, .shop-box .img-box .img-hover, .shop-box .img-box .img-hover:after, .shop-box .img-box .img-hover::before, .header-section .header-box .menu-icon i, .header-section .header-box .header-icon ul li a, .header-section .header-box .header-icon .lang-box a, .header-section .nav-menu, .header-section .nav-menu ul li, .header-section .nav-menu ul li a, .header-section .nav-menu .close-menu i, .arrow-slider-header i, .find-our-section .Project-box .viewBox, .footer-content .footer-ul .phone-box a, .footer-content .footer-ul ul li a, .project-section .banner-project .banner-content .main-link-box, .photoGallery-section .photo-slider .arrow-slider-photo, .photoGallery-section .photo-slider .photo-slider-item .photo-box:after, .photoGallery-section .photo-slider .photo-slider-item .photo-box .view-title, .vedioGallery-section .vedio-slider .vedio-slider-item .vedio-box .img-box .vedioGallery-popup, .blog-bottom .link, .news-section .news-slider-box:after, .news-section .news-slider-box .new-slider .slick-dots li button:before, .news-section .last-work-section .moreEvents-box .more-link, .blog-popUp-box, .blog-popUp-box .close-menu i, .bottom-3 .link-3, .contact-section .content-form .form-button, .careers-section .careers-form-box .careers-form .form-button {
   transition: 0.4s all ease-in-out;
 }
 
@@ -2090,6 +2090,10 @@ html[lang="ar"] .floorPalns-section .size-box .size-title-box .size-title::after
   border-radius: 5px;
 }
 
+.bank-img .bank-link img {
+  height: 27px;
+}
+
 @media (max-width: 992px) {
   .bottom-3 .link-3 {
     font-size: 14px;
@@ -2267,4 +2271,149 @@ html[lang="ar"] .floorPalns-section .size-box .size-title-box .size-title::after
 
 .modal-dialog {
   max-width: unset !important;
+}
+
+.contact-title {
+  margin: 0 0 30px;
+  font-size: 80px;
+  font-weight: 800;
+  display: inline-block;
+  color: #090909;
+}
+
+.contact-title2 {
+  margin: 0 0 30px;
+  font-size: 40px;
+  font-weight: 600;
+  display: inline-block;
+  color: #090909;
+}
+
+.contact-section {
+  padding: 120px 0;
+  background-color: #e6e6e6;
+}
+.contact-section .map {
+  height: 100%;
+}
+.contact-section .content-form .form-button {
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 800;
+  padding: 10px;
+  background-color: #ffc725;
+  border: 0;
+  color: #090909;
+  border-radius: 7px;
+}
+.contact-section .content-form .form-button:hover {
+  background-color: #090909;
+  color: white;
+}
+.contact-section .content-form .form-group .nice-select {
+  width: 100%;
+  margin: 30px 0;
+}
+.contact-section .content-form .form-group .nice-select .list {
+  width: 100%;
+}
+.contact-section .content-form .form-group textarea,
+.contact-section .content-form .form-group input {
+  border-radius: 5px;
+  border: 1px sans-serif #090909;
+}
+.contact-section .content-form .form-group textarea:focus,
+.contact-section .content-form .form-group input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.contact-section .content-form .form-group textarea {
+  padding: 30px;
+  height: 330px;
+  width: 100%;
+}
+.contact-section .content-form .form-group input {
+  padding: 0 20px;
+  height: 60px;
+}
+
+.careers-section {
+  padding: 100px 0 170px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.careers-section .careers-form-box .careers-form .uplode-file {
+  padding: 20px 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.careers-section .careers-form-box .careers-form .nice-select {
+  width: 100%;
+  margin: 30px 0;
+}
+.careers-section .careers-form-box .careers-form .nice-select .list {
+  width: 100%;
+}
+.careers-section .careers-form-box .careers-form textarea,
+.careers-section .careers-form-box .careers-form input {
+  border-radius: 5px;
+  border: 1px sans-serif #090909;
+}
+.careers-section .careers-form-box .careers-form textarea:focus,
+.careers-section .careers-form-box .careers-form input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.careers-section .careers-form-box .careers-form textarea {
+  padding: 30px;
+  height: 330px;
+  width: 100%;
+}
+.careers-section .careers-form-box .careers-form input {
+  padding: 0 20px;
+  height: 40px;
+}
+.careers-section .careers-form-box .careers-form .form-button {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 5px 38px;
+  background-color: white;
+  border: 1px solid rgba(9, 9, 9, 0.4);
+  color: #090909;
+  border-radius: 7px;
+}
+.careers-section .careers-form-box .careers-form .form-button:hover {
+  background-color: #090909;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .contact-title {
+    font-size: 34px;
+  }
+
+  .contact-section {
+    padding: 38px 0;
+  }
+  .contact-section .content-form .form-button {
+    font-size: 22px;
+  }
+  .contact-section .map {
+    margin: 20px 0;
+  }
+}
+@media (max-width: 772px) {
+  .careers-section .careers-form-box .careers-form textarea {
+    height: 200px;
+  }
+  .careers-section .careers-form-box .careers-form input {
+    width: 100%;
+  }
+
+  .contact-section .content-form .form-group textarea {
+    height: 200px;
+  }
 }
