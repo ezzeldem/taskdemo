@@ -131,6 +131,17 @@ $(document).ready(function () {
 
 
 
+    // open popup
+    $('.blog-bottom .link').click(function(s){
+        s.stopPropagation();
+        $("#" + $(this).data("open")).addClass('open-poUp-box');
+    });
+    $('.blog-popUp-box .close-menu i').click(function(){
+        $(".blog-popUp-box").removeClass('open-poUp-box');
+    });
+
+
+
 
     // niceSelect
     $(".select-box").niceSelect();

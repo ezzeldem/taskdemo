@@ -1990,6 +1990,79 @@ body {
 
 // end banner-up-footer
 
+
+
+.open-poUp-box{
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.blog-popUp-box{
+    position: fixed;
+    top: 0%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba($main-color, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+    visibility: hidden;
+    opacity: 0;
+    @extend.transtion-4;
+    .close-menu{
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        i{
+            cursor: pointer;
+            color: rgba($brown-color, 1);
+            font-size: 26px;
+            border-radius: 10px;
+            @extend.transtion-4;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba($white-color, 1);
+            border: 1px solid rgba($white-color, 1);
+            border: 1px solid rgba($white-color, 1);
+            &:hover{
+                background-color: transparent;
+                color: rgba($white-color, 1);
+            }
+        }
+    }
+ 
+    .blog-popUp-conten{
+        padding: 33px 25px;
+        width: 63%;
+        background-color: rgba($white-color, 1);
+        border-radius: 10px;
+        .blog-img{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px ;
+            height: 244px;
+        }
+        .blog-title{
+            font-size: 18px;
+            font-weight: 700;
+            margin: 10px 0;
+            color: rgba($main-color, 1);
+        }
+        .prag{
+            font-size: 16px;
+            color: rgba($gray-color2, 1);
+        }
+    }
+}
+
+
+
 //  start media
 
 @media (max-width: 992px) {
@@ -2072,6 +2145,28 @@ body {
                     width: 100%;
                 }
             }
+        }
+    }
+
+    .blog-popUp-box{
+         .blog-popUp-conten{
+            width: 92%;
+            text-align: center;
+            padding: 22px 18px;
+            .blog-title{
+                font-size: 16px;
+                margin: 35px 0 19px;
+            }
+            .prag {
+                font-size: 14px;
+            }
+         }
+        }
+
+        .blog-popUp-box {
+            .close-menu {
+            top: 7px;
+            right: 17px;
         }
     }
 }

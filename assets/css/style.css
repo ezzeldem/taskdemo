@@ -55,7 +55,7 @@ html[lang="ar"] .open-menu-j {
   padding: 15px 0;
 }
 
-.transtion-4, .main-link-box a, .main-link-box2 a, .arrow-slider2 i, .shop-box .img-box .explore-title, .shop-box .img-box .img-hover, .shop-box .img-box .img-hover:after, .shop-box .img-box .img-hover::before, .header-section .header-box .menu-icon i, .header-section .header-box .header-icon ul li a, .header-section .header-box .header-icon .lang-box a, .header-section .nav-menu, .header-section .nav-menu ul li, .header-section .nav-menu ul li a, .header-section .nav-menu .close-menu i, .arrow-slider-header i, .find-our-section .Project-box .viewBox, .footer-content .footer-ul .phone-box a, .footer-content .footer-ul ul li a, .project-section .banner-project .banner-content .main-link-box, .photoGallery-section .photo-slider .arrow-slider-photo, .photoGallery-section .photo-slider .photo-slider-item .photo-box:after, .photoGallery-section .photo-slider .photo-slider-item .photo-box .view-title, .vedioGallery-section .vedio-slider .vedio-slider-item .vedio-box .img-box .vedioGallery-popup, .blog-bottom .link, .news-section .news-slider-box:after, .news-section .news-slider-box .new-slider .slick-dots li button:before, .news-section .last-work-section .moreEvents-box .more-link {
+.transtion-4, .main-link-box a, .main-link-box2 a, .arrow-slider2 i, .shop-box .img-box .explore-title, .shop-box .img-box .img-hover, .shop-box .img-box .img-hover:after, .shop-box .img-box .img-hover::before, .header-section .header-box .menu-icon i, .header-section .header-box .header-icon ul li a, .header-section .header-box .header-icon .lang-box a, .header-section .nav-menu, .header-section .nav-menu ul li, .header-section .nav-menu ul li a, .header-section .nav-menu .close-menu i, .arrow-slider-header i, .find-our-section .Project-box .viewBox, .footer-content .footer-ul .phone-box a, .footer-content .footer-ul ul li a, .project-section .banner-project .banner-content .main-link-box, .photoGallery-section .photo-slider .arrow-slider-photo, .photoGallery-section .photo-slider .photo-slider-item .photo-box:after, .photoGallery-section .photo-slider .photo-slider-item .photo-box .view-title, .vedioGallery-section .vedio-slider .vedio-slider-item .vedio-box .img-box .vedioGallery-popup, .blog-bottom .link, .news-section .news-slider-box:after, .news-section .news-slider-box .new-slider .slick-dots li button:before, .news-section .last-work-section .moreEvents-box .more-link, .blog-popUp-box, .blog-popUp-box .close-menu i {
   transition: 0.4s all ease-in-out;
 }
 
@@ -1666,6 +1666,72 @@ html[lang="ar"] .vedioGallery-section .vedio-slider .vedio-slider-item .vedio-bo
   box-shadow: none;
 }
 
+.open-poUp-box {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.blog-popUp-box {
+  position: fixed;
+  top: 0%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(9, 9, 9, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999999;
+  visibility: hidden;
+  opacity: 0;
+}
+.blog-popUp-box .close-menu {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+.blog-popUp-box .close-menu i {
+  cursor: pointer;
+  color: #343434;
+  font-size: 26px;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid white;
+  border: 1px solid white;
+}
+.blog-popUp-box .close-menu i:hover {
+  background-color: transparent;
+  color: white;
+}
+.blog-popUp-box .blog-popUp-conten {
+  padding: 33px 25px;
+  width: 63%;
+  background-color: white;
+  border-radius: 10px;
+}
+.blog-popUp-box .blog-popUp-conten .blog-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  height: 244px;
+}
+.blog-popUp-box .blog-popUp-conten .blog-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px 0;
+  color: #090909;
+}
+.blog-popUp-box .blog-popUp-conten .prag {
+  font-size: 16px;
+  color: #525252;
+}
+
 @media (max-width: 992px) {
   .news-section .news-slider-box .new-slider .new-slider-item .new-slider-item-content .slider-text {
     width: 100%;
@@ -1714,5 +1780,23 @@ html[lang="ar"] .vedioGallery-section .vedio-slider .vedio-slider-item .vedio-bo
   }
   .banner-up-footer .banner-form form input {
     width: 100%;
+  }
+
+  .blog-popUp-box .blog-popUp-conten {
+    width: 92%;
+    text-align: center;
+    padding: 22px 18px;
+  }
+  .blog-popUp-box .blog-popUp-conten .blog-title {
+    font-size: 16px;
+    margin: 35px 0 19px;
+  }
+  .blog-popUp-box .blog-popUp-conten .prag {
+    font-size: 14px;
+  }
+
+  .blog-popUp-box .close-menu {
+    top: 7px;
+    right: 17px;
   }
 }
