@@ -1675,6 +1675,9 @@ html[lang="ar"] .vedioGallery-section .vedio-slider .vedio-slider-item .vedio-bo
   padding: 15px;
   border-radius: 10px 0 0 10px;
 }
+html[lang="ar"] .banner-up-footer .banner-form form input {
+  border-radius: 0 10px 10px 0;
+}
 .banner-up-footer .banner-form form input:focus {
   outline: none;
   box-shadow: none;
@@ -1686,6 +1689,9 @@ html[lang="ar"] .vedioGallery-section .vedio-slider .vedio-slider-item .vedio-bo
   font-weight: 700;
   color: #343434;
   background-color: white;
+}
+html[lang="ar"] .banner-up-footer .banner-form form button {
+  border-radius: 10px 0 0 10px;
 }
 .banner-up-footer .banner-form form button:focus {
   outline: none;
@@ -2090,6 +2096,9 @@ html[lang="ar"] .floorPalns-section .size-box .size-title-box .size-title::after
   border-radius: 5px;
 }
 
+.bank-img {
+  text-align: center;
+}
 .bank-img .bank-link img {
   height: 27px;
 }
@@ -2218,6 +2227,10 @@ html[lang="ar"] .floorPalns-section .size-box .size-title-box .size-title::after
   height: 7px;
   position: absolute;
   background-color: black;
+}
+html[lang="ar"] .title-box-5 .box-title::after {
+  left: unset;
+  right: 0;
 }
 .title-box-5 .prag {
   width: 80%;
@@ -2445,8 +2458,22 @@ html[lang="ar"] .floorPalns-section .size-box .size-title-box .size-title::after
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 3px 3px 8px rgba(9, 9, 9, 0.3);
+  border: 1px solid #ffc725;
 }
 .chat-head:hover {
   bottom: 35px;
+  box-shadow: 4px 4px 10px rgba(9, 9, 9, 0.3);
+  border: 1px solid #090909;
   background-color: white;
+}
+
+@media (max-width: 772px) {
+  .chat-head {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
 }
