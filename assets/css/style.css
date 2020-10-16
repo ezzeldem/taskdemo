@@ -20,6 +20,10 @@ html[lang="en"] body {
   font-family: "Poppins", sans-serif;
 }
 
+html[lang="ar"] body {
+  font-family: 'Tajawal', sans-serif;
+}
+
 body.detailsProject-page {
   background-image: url("../img/wm.svg");
   background-position: left top;
