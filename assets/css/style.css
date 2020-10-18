@@ -1894,6 +1894,10 @@ html[lang="ar"] .blog-popUp-box .blog-popUp-conten .date-blog::after {
   position: absolute;
   background-color: #24a4b3;
 }
+html[lang="ar"] .amnities-section::after {
+  left: unset;
+  right: 0;
+}
 .amnities-section .amnities-box {
   padding: 30px;
 }
@@ -1930,6 +1934,10 @@ html[lang="ar"] .blog-popUp-box .blog-popUp-conten .date-blog::after {
   position: absolute;
   background-color: #e6e6e6;
   z-index: -1;
+}
+html[lang="ar"] .floorPalns-section::after {
+  left: unset;
+  right: 0;
 }
 .floorPalns-section .size-box {
   background-color: #343434;

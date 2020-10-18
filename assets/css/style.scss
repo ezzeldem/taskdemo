@@ -2277,6 +2277,10 @@ body {
         width: 167px;
         position: absolute;
         background-color: rgba($blue-color, 1);
+        html[lang="ar"] &{
+            left: unset;
+            right: 0;
+        }
     }
 
     .amnities-box {
@@ -2319,6 +2323,10 @@ body {
         position: absolute;
         background-color: rgba($gray-color3, 1);
         z-index: -1;
+        html[lang="ar"] &{
+            left: unset;
+            right: 0;
+        }
     }
 
     .size-box {
