@@ -974,7 +974,7 @@ html[lang="ar"] .request-section .request-content .mail-box .mail-form button {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 250px 0 200px;
+  padding: 200px 0 200px;
   margin: -128px 0 0;
   z-index: 1;
   position: relative;
@@ -1861,7 +1861,7 @@ html[lang="ar"] .blog-popUp-box .blog-popUp-conten .date-blog::after {
   }
 }
 .details-concept-section {
-  padding: 150px 0 30px;
+  padding: 75px 0 30px;
 }
 .details-concept-section .details-concept-content {
   width: 450px;
