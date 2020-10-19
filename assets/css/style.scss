@@ -845,14 +845,18 @@ body {
 .footer-content {
     padding: 60px 0 0;
     background-color: rgba($brown-color, 1);
-
+    .footer-box-content{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
     .footer-ul {
-        padding: 50px 0 0;
+        padding: 10px 0 0;
         .ul-title {
-            font-size: 18px;
+            font-size: 24px;
             font-weight: 600;
             color: rgba($white-color, 1);
-            margin: 0 0 30px;
+            // margin: 0 0 10px;
             &.gold-title {
                 color: rgba($gold-color, 1);
             }
@@ -861,9 +865,11 @@ body {
         .phone-box {
             display: flex;
             margin: 20px;
+            justify-content: center;
             a {
                 margin: 0 10px;
                 font-size: 20px;
+                font-weight: 600;
                 @extend.transtion-4;
                 color: rgba($white-color, 1);
                 &:hover {
@@ -872,8 +878,11 @@ body {
             }
         }
         ul {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
             li {
-                margin: 5px 0;
+                margin: 5px ;
                 a {
                     font-size: 14px;
                     color: rgba($white-color, 1);
@@ -1134,7 +1143,7 @@ body {
     .footer-content {
         text-align: center;
         .footer-ul {
-            padding: 30px 0 0;
+            padding: 10px 0 0;
             ul {
                 li {
                     a {
@@ -1144,8 +1153,7 @@ body {
             }
 
             .ul-title {
-                margin: 0 0 21px;
-                font-size: 22px;
+                font-size: 16px;
             }
             .phone-box {
                 justify-content: center;
@@ -2531,6 +2539,7 @@ body {
     }
 }
 .bank-img {
+    text-align: center;
     .bank-link {
         img {
             height: 27px;

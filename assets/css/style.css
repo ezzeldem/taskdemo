@@ -718,14 +718,18 @@ html[lang="ar"] .request-section .request-content .mail-box .mail-form button {
   padding: 60px 0 0;
   background-color: #343434;
 }
+.footer-content .footer-box-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 .footer-content .footer-ul {
-  padding: 50px 0 0;
+  padding: 10px 0 0;
 }
 .footer-content .footer-ul .ul-title {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
   color: white;
-  margin: 0 0 30px;
 }
 .footer-content .footer-ul .ul-title.gold-title {
   color: #ffc725;
@@ -733,17 +737,24 @@ html[lang="ar"] .request-section .request-content .mail-box .mail-form button {
 .footer-content .footer-ul .phone-box {
   display: flex;
   margin: 20px;
+  justify-content: center;
 }
 .footer-content .footer-ul .phone-box a {
   margin: 0 10px;
   font-size: 20px;
+  font-weight: 600;
   color: white;
 }
 .footer-content .footer-ul .phone-box a:hover {
   color: #ffc725;
 }
+.footer-content .footer-ul ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 .footer-content .footer-ul ul li {
-  margin: 5px 0;
+  margin: 5px;
 }
 .footer-content .footer-ul ul li a {
   font-size: 14px;
@@ -951,14 +962,13 @@ html[lang="ar"] .request-section .request-content .mail-box .mail-form button {
     text-align: center;
   }
   .footer-content .footer-ul {
-    padding: 30px 0 0;
+    padding: 10px 0 0;
   }
   .footer-content .footer-ul ul li a {
     font-size: 14px !important;
   }
   .footer-content .footer-ul .ul-title {
-    margin: 0 0 21px;
-    font-size: 22px;
+    font-size: 16px;
   }
   .footer-content .footer-ul .phone-box {
     justify-content: center;
@@ -2106,6 +2116,9 @@ html[lang="ar"] .floorPalns-section .size-box .size-title-box .size-title::after
   border-radius: 5px;
 }
 
+.bank-img {
+  text-align: center;
+}
 .bank-img .bank-link img {
   height: 27px;
 }
