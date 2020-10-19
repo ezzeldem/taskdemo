@@ -155,6 +155,19 @@ $(document).ready(function () {
 
 
 
+
+        // open popup2
+    $('.pop-up-mian').click(function(e2){
+        e2.stopPropagation();
+        $("#" + $(this).data("open")).addClass('open-poUp-box');
+    });
+    $('.popUp-box .close-menu').click(function(){
+        $(".popUp-box").removeClass('open-poUp-box');
+    });
+
+
+
+
     // niceSelect
     $(".select-box").niceSelect();
 

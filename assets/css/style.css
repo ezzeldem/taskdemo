@@ -59,7 +59,7 @@ html[lang="ar"] .open-menu-j {
   padding: 15px 0;
 }
 
-.transtion-4, .main-link-box a, .main-link-box2 a, .arrow-slider2 i, .shop-box .img-box .explore-title, .shop-box .img-box .img-hover, .shop-box .img-box .img-hover:after, .shop-box .img-box .img-hover::before, .header-section .header-box .menu-icon i, .header-section .header-box .header-icon ul li a, .header-section .header-box .header-icon .lang-box a, .header-section .nav-menu, .header-section .nav-menu ul li, .header-section .nav-menu ul li a, .header-section .nav-menu .close-menu i, .arrow-slider-header i, .find-our-section .Project-box .viewBox, .footer-content .footer-ul .phone-box a, .footer-content .footer-ul ul li a, .project-section .banner-project .banner-content .main-link-box, .photoGallery-section .photo-slider .arrow-slider-photo, .photoGallery-section .photo-slider .photo-slider-item .photo-box:after, .photoGallery-section .photo-slider .photo-slider-item .photo-box .view-title, .vedioGallery-section .vedio-slider .vedio-slider-item .vedio-box .img-box .vedioGallery-popup, .blog-bottom .link, .news-section .news-slider-box:after, .news-section .news-slider-box .new-slider .slick-dots li button:before, .news-section .last-work-section .moreEvents-box .more-link, .blog-popUp-box, .blog-popUp-box .close-menu i, .bottom-3 .link-3, .contact-section .content-form .form-button, .careers-section .careers-form-box .careers-form .form-button, .chat-head {
+.transtion-4, .main-link-box a, .main-link-box2 a, .arrow-slider2 i, .shop-box .img-box .explore-title, .shop-box .img-box .img-hover, .shop-box .img-box .img-hover:after, .shop-box .img-box .img-hover::before, .header-section .header-box .menu-icon i, .header-section .header-box .header-icon ul li a, .header-section .header-box .header-icon .lang-box a, .header-section .nav-menu, .header-section .nav-menu ul li, .header-section .nav-menu ul li a, .header-section .nav-menu .close-menu i, .arrow-slider-header i, .find-our-section .Project-box .viewBox, .footer-content .footer-ul .phone-box a, .footer-content .footer-ul ul li a, .project-section .banner-project .banner-content .main-link-box, .photoGallery-section .photo-slider .arrow-slider-photo, .photoGallery-section .photo-slider .photo-slider-item .photo-box:after, .photoGallery-section .photo-slider .photo-slider-item .photo-box .view-title, .vedioGallery-section .vedio-slider .vedio-slider-item .vedio-box .img-box .vedioGallery-popup, .blog-bottom .link, .news-section .news-slider-box:after, .news-section .news-slider-box .new-slider .slick-dots li button:before, .news-section .last-work-section .moreEvents-box .more-link, .blog-popUp-box, .blog-popUp-box .close-menu i, .bottom-3 .link-3, .contact-section .content-form .form-button, .careers-section .careers-form-box .careers-form .form-button, .chat-head, .popUp-box, .popUp-box .close-menu i {
   transition: 0.4s all ease-in-out;
 }
 
@@ -1854,7 +1854,6 @@ html[lang="ar"] .blog-popUp-box .blog-popUp-conten .date-blog::after {
   .blog-popUp-box .blog-popUp-conten .prag {
     font-size: 14px;
   }
-
   .blog-popUp-box .close-menu {
     top: 7px;
     right: 17px;
@@ -2571,6 +2570,103 @@ html[lang="ar"] .title-box-5 .box-title::after {
   background-color: white;
 }
 
+.delivered-section {
+  padding: 60px 0;
+}
+.delivered-section .delivered-box {
+  margin: 20px 0;
+}
+.delivered-section .delivered-box .delivered-img-box {
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.delivered-section .delivered-box .delivered-ditiles {
+  margin: 20px 0 0;
+  text-align: center;
+}
+.delivered-section .delivered-box .delivered-ditiles .delivered-type {
+  font-size: 12px;
+  color: #343434;
+  font-weight: 500;
+  margin: 0 0 10px;
+}
+.delivered-section .delivered-box .delivered-ditiles .delivered-title {
+  font-size: 20px;
+  color: #343434;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+.delivered-section .delivered-box .delivered-ditiles .delivered-place {
+  font-size: 14px;
+  color: #343434;
+  font-weight: 600;
+}
+
+.popUp-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(52, 52, 52, 0.2);
+  z-index: 9999999;
+  visibility: hidden;
+  opacity: 0;
+}
+.popUp-box .close-menu {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+.popUp-box .close-menu i {
+  cursor: pointer;
+  color: #343434;
+  font-size: 26px;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid white;
+  border: 1px solid white;
+}
+.popUp-box .close-menu i:hover {
+  background-color: transparent;
+  color: white;
+}
+.popUp-box .popUp-content {
+  padding: 33px 25px;
+  width: 63%;
+  background-color: white;
+  border-radius: 10px;
+}
+.popUp-box .popUp-content .popUp-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  height: 244px;
+}
+.popUp-box .popUp-content .popUp-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px 0;
+  color: #090909;
+}
+.popUp-box .popUp-content .prag {
+  font-size: 16px;
+  color: #525252;
+}
+
 @media (max-width: 772px) {
   .chat-head {
     position: fixed;
@@ -2579,5 +2675,22 @@ html[lang="ar"] .title-box-5 .box-title::after {
     width: 50px;
     height: 50px;
     font-size: 20px;
+  }
+
+  .popUp-box .popUp-content {
+    width: 92%;
+    text-align: center;
+    padding: 22px 18px;
+  }
+  .popUp-box .popUp-content .popUp-title {
+    font-size: 16px;
+    margin: 35px 0 19px;
+  }
+  .popUp-box .popUp-content .prag {
+    font-size: 14px;
+  }
+  .popUp-box .close-menu {
+    top: 7px;
+    right: 17px;
   }
 }
