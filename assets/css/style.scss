@@ -849,6 +849,7 @@ body {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+        flex-direction: row-reverse;
     }
     .footer-ul {
         padding: 10px 0 0;

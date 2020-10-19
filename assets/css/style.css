@@ -722,6 +722,7 @@ html[lang="ar"] .request-section .request-content .mail-box .mail-form button {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  flex-direction: row-reverse;
 }
 .footer-content .footer-ul {
   padding: 10px 0 0;
