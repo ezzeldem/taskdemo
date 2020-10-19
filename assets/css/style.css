@@ -59,7 +59,7 @@ html[lang="ar"] .open-menu-j {
   padding: 15px 0;
 }
 
-.transtion-4, .main-link-box a, .main-link-box2 a, .arrow-slider2 i, .shop-box .img-box .explore-title, .shop-box .img-box .img-hover, .shop-box .img-box .img-hover:after, .shop-box .img-box .img-hover::before, .header-section .header-box .menu-icon i, .header-section .header-box .header-icon ul li a, .header-section .header-box .header-icon .lang-box a, .header-section .nav-menu, .header-section .nav-menu ul li, .header-section .nav-menu ul li a, .header-section .nav-menu .close-menu i, .arrow-slider-header i, .find-our-section .Project-box .viewBox, .footer-content .footer-ul .phone-box a, .footer-content .footer-ul ul li a, .project-section .banner-project .banner-content .main-link-box, .photoGallery-section .photo-slider .arrow-slider-photo, .photoGallery-section .photo-slider .photo-slider-item .photo-box:after, .photoGallery-section .photo-slider .photo-slider-item .photo-box .view-title, .vedioGallery-section .vedio-slider .vedio-slider-item .vedio-box .img-box .vedioGallery-popup, .blog-bottom .link, .news-section .news-slider-box:after, .news-section .news-slider-box .new-slider .slick-dots li button:before, .news-section .last-work-section .moreEvents-box .more-link, .blog-popUp-box, .blog-popUp-box .close-menu i, .bottom-3 .link-3, .contact-section .content-form .form-button, .careers-section .careers-form-box .careers-form .form-button, .chat-head, .delivered-section .delivered-box .delivered-img-box:after, .delivered-section .delivered-box .delivered-img-box::before, .popUp-box, .popUp-box .close-menu i {
+.transtion-4, .main-link-box a, .main-link-box2 a, .arrow-slider2 i, .shop-box .img-box .explore-title, .shop-box .img-box .img-hover, .shop-box .img-box .img-hover:after, .shop-box .img-box .img-hover::before, .header-section .header-box .menu-icon i, .header-section .header-box .header-icon ul li a, .header-section .header-box .header-icon .lang-box a, .header-section .nav-menu, .header-section .nav-menu ul li, .header-section .nav-menu ul li a, .header-section .nav-menu .close-menu i, .arrow-slider-header i, .find-our-section .Project-box .viewBox, .footer-content .footer-ul .phone-box a, .footer-content .footer-ul ul li a, .project-section .banner-project .banner-content .main-link-box, .photoGallery-section .photo-slider .arrow-slider-photo, .photoGallery-section .photo-slider .photo-slider-item .photo-box:after, .photoGallery-section .photo-slider .photo-slider-item .photo-box .view-title, .vedioGallery-section .vedio-slider .vedio-slider-item .vedio-box .img-box .vedioGallery-popup, .blog-bottom .link, .news-section .news-slider-box:after, .news-section .news-slider-box .new-slider .slick-dots li button:before, .news-section .last-work-section .moreEvents-box .more-link, .blog-popUp-box, .blog-popUp-box .close-menu i, .bottom-3 .link-3, .contact-section .content-form .form-button, .careers-section .careers-form-box .careers-form .form-button, .chat-head, .delivered-section .delivered-box .delivered-img-box:after, .delivered-section .delivered-box .delivered-img-box::before, .popUp-box, .popUp-box .close-menu i, .page-number .page-number-arrow a {
   transition: 0.4s all ease-in-out;
 }
 
@@ -2694,6 +2694,32 @@ html[lang="ar"] .title-box-5 .box-title::after {
 .popUp-box .popUp-content .prag {
   font-size: 16px;
   color: #525252;
+}
+
+.page-number {
+  text-align: center;
+  padding: 0 0 30px;
+}
+.page-number .page-number-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-number .page-number-arrow a {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #090909;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  color: #090909;
+}
+.page-number .page-number-arrow a:hover {
+  color: #343434;
+  border-color: #343434;
 }
 
 @media (max-width: 772px) {
