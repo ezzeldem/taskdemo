@@ -2302,6 +2302,43 @@ html[lang="ar"] .title-box-5 .box-title::after {
   margin: 0 -15px;
 }
 
+.management-section {
+  padding: 100px 0;
+}
+.management-section .title-box-5 {
+  margin: 0 0 30px;
+}
+.management-section .management-box {
+  margin: 10px 0;
+}
+.management-section .management-box .management-img-box {
+  height: 353px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.management-section .management-box-ditals {
+  padding: 10px 20px;
+}
+.management-section .management-box-ditals .management-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 5px;
+  color: #090909;
+}
+.management-section .management-box-ditals .management-title {
+  color: #343434;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0 20px 5px;
+}
+.management-section .management-box-ditals .management-prag {
+  color: #090909;
+  font-size: 14px;
+  font-weight: 600;
+  width: 90%;
+}
+
 @media (max-width: 992px) {
   .title-box-5 .box-title {
     font-size: 24px;
@@ -2325,6 +2362,16 @@ html[lang="ar"] .title-box-5 .box-title::after {
   .about-section-1,
   .about-section-2 {
     padding: 46px 0;
+  }
+
+  .management-section {
+    padding: 50px 0;
+  }
+  .management-section .management-box {
+    margin: 10px 0;
+  }
+  .management-section .management-box .management-img-box {
+    height: 300px;
   }
 }
 .ifream-section {

@@ -858,6 +858,7 @@ body {
             }
             &.center-box {
                 text-align: center;
+
             }
         }
 
@@ -2784,6 +2785,54 @@ body {
     }
 }
 
+.management-section{
+    padding: 100px 0;
+    .title-box-5{
+        margin: 0 0 30px;
+    }
+    .management-box{
+        margin: 10px 0;
+     
+
+        .management-img-box{
+            height: 353px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+
+     
+
+
+    }
+
+    .management-box-ditals{
+        padding: 10px 20px;
+        .management-name{
+            font-size: 18px;
+            font-weight: 600;
+            margin: 0 0 5px;
+            color: rgba($main-color, 1);
+        }
+        .management-title{
+            color: rgba($brown-color, 1);
+            font-size: 12px;
+            font-weight: 500;
+            margin: 0 20px 5px;
+        }
+        .management-prag{
+            color: rgba($main-color, 1);
+            font-size: 14px;
+            font-weight: 600;
+            width: 90%;
+        }
+    }
+
+
+}
+
 @media (max-width: 992px) {
     .title-box-5 {
         .box-title {
@@ -2812,6 +2861,32 @@ body {
     .about-section-2 {
         padding: 46px 0;
     }
+
+
+
+    
+.management-section{
+    padding: 50px 0;
+    .management-box{
+        margin: 10px 0;
+     
+
+        .management-img-box{
+            height: 300px;
+        }
+
+
+
+     
+
+
+    }
+
+
+
+}
+
+
 }
 
 // ifream-section
