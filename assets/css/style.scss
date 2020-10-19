@@ -3313,6 +3313,35 @@ body {
 }
 
 
+
+.end-banner{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 150px 0;
+    text-align: center;
+    position: relative;
+    &::before{
+        @extend.transtion-4;
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        bottom: 0;
+        right: 0;
+        background-color: rgba($main-color, 0.6);
+    }
+    .end-banner-box{
+
+        .banner-title{
+            font-size: 40px;
+            color: rgba($white-color, 1);
+            font-weight: 700;
+        }
+    }
+}
+
+
 @media (max-width: 772px) {
     .chat-head{
         position: fixed;
@@ -3341,6 +3370,20 @@ body {
             right: 17px;
         }
     }
+
+
+
+
+    .end-banner{
+        padding: 50px 0;
+        .end-banner-box{
+    
+            .banner-title{
+                font-size: 20px;
+            }
+        }
+    }
+
 
 }
 

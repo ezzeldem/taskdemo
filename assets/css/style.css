@@ -59,7 +59,7 @@ html[lang="ar"] .open-menu-j {
   padding: 15px 0;
 }
 
-.transtion-4, .main-link-box a, .main-link-box2 a, .arrow-slider2 i, .shop-box .img-box .explore-title, .shop-box .img-box .img-hover, .shop-box .img-box .img-hover:after, .shop-box .img-box .img-hover::before, .header-section .header-box .menu-icon i, .header-section .header-box .header-icon ul li a, .header-section .header-box .header-icon .lang-box a, .header-section .nav-menu, .header-section .nav-menu ul li, .header-section .nav-menu ul li a, .header-section .nav-menu .close-menu i, .arrow-slider-header i, .find-our-section .Project-box .viewBox, .footer-content .footer-ul .phone-box a, .footer-content .footer-ul ul li a, .project-section .banner-project .banner-content .main-link-box, .photoGallery-section .photo-slider .arrow-slider-photo, .photoGallery-section .photo-slider .photo-slider-item .photo-box:after, .photoGallery-section .photo-slider .photo-slider-item .photo-box .view-title, .vedioGallery-section .vedio-slider .vedio-slider-item .vedio-box .img-box .vedioGallery-popup, .blog-bottom .link, .news-section .news-slider-box:after, .news-section .news-slider-box .new-slider .slick-dots li button:before, .news-section .last-work-section .moreEvents-box .more-link, .blog-popUp-box, .blog-popUp-box .close-menu i, .bottom-3 .link-3, .contact-section .content-form .form-button, .careers-section .careers-form-box .careers-form .form-button, .chat-head, .delivered-section .delivered-box .delivered-img-box:after, .delivered-section .delivered-box .delivered-img-box::before, .popUp-box, .popUp-box .close-menu i, .page-number .page-number-arrow a {
+.transtion-4, .main-link-box a, .main-link-box2 a, .arrow-slider2 i, .shop-box .img-box .explore-title, .shop-box .img-box .img-hover, .shop-box .img-box .img-hover:after, .shop-box .img-box .img-hover::before, .header-section .header-box .menu-icon i, .header-section .header-box .header-icon ul li a, .header-section .header-box .header-icon .lang-box a, .header-section .nav-menu, .header-section .nav-menu ul li, .header-section .nav-menu ul li a, .header-section .nav-menu .close-menu i, .arrow-slider-header i, .find-our-section .Project-box .viewBox, .footer-content .footer-ul .phone-box a, .footer-content .footer-ul ul li a, .project-section .banner-project .banner-content .main-link-box, .photoGallery-section .photo-slider .arrow-slider-photo, .photoGallery-section .photo-slider .photo-slider-item .photo-box:after, .photoGallery-section .photo-slider .photo-slider-item .photo-box .view-title, .vedioGallery-section .vedio-slider .vedio-slider-item .vedio-box .img-box .vedioGallery-popup, .blog-bottom .link, .news-section .news-slider-box:after, .news-section .news-slider-box .new-slider .slick-dots li button:before, .news-section .last-work-section .moreEvents-box .more-link, .blog-popUp-box, .blog-popUp-box .close-menu i, .bottom-3 .link-3, .contact-section .content-form .form-button, .careers-section .careers-form-box .careers-form .form-button, .chat-head, .delivered-section .delivered-box .delivered-img-box:after, .delivered-section .delivered-box .delivered-img-box::before, .popUp-box, .popUp-box .close-menu i, .page-number .page-number-arrow a, .end-banner::before {
   transition: 0.4s all ease-in-out;
 }
 
@@ -2722,6 +2722,29 @@ html[lang="ar"] .title-box-5 .box-title::after {
   border-color: #343434;
 }
 
+.end-banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0;
+  text-align: center;
+  position: relative;
+}
+.end-banner::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(9, 9, 9, 0.6);
+}
+.end-banner .end-banner-box .banner-title {
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+}
+
 @media (max-width: 772px) {
   .chat-head {
     position: fixed;
@@ -2747,5 +2770,12 @@ html[lang="ar"] .title-box-5 .box-title::after {
   .popUp-box .close-menu {
     top: 7px;
     right: 17px;
+  }
+
+  .end-banner {
+    padding: 50px 0;
+  }
+  .end-banner .end-banner-box .banner-title {
+    font-size: 20px;
   }
 }
