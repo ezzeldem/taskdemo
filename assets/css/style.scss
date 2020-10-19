@@ -849,16 +849,12 @@ body {
     .footer-ul {
         padding: 50px 0 0;
         .ul-title {
-            font-size: 22px;
+            font-size: 18px;
             font-weight: 600;
             color: rgba($white-color, 1);
             margin: 0 0 30px;
             &.gold-title {
                 color: rgba($gold-color, 1);
-            }
-            &.center-box {
-                text-align: center;
-
             }
         }
 
@@ -879,7 +875,7 @@ body {
             li {
                 margin: 5px 0;
                 a {
-                    font-size: 20px;
+                    font-size: 14px;
                     color: rgba($white-color, 1);
                     font-weight: 600;
                     @extend.transtion-4;
@@ -2535,7 +2531,6 @@ body {
     }
 }
 .bank-img {
-    text-align: center;
     .bank-link {
         img {
             height: 27px;
@@ -3301,7 +3296,7 @@ body {
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0 20px;
+            margin: 0 10px;
             color: rgba($main-color, 1);
             @extend.transtion-4;
             &:hover{
