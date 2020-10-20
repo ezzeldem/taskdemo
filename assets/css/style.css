@@ -2581,6 +2581,22 @@ html[lang="ar"] .title-box-5 .box-title::after {
 .delivered-section {
   padding: 60px 0;
 }
+.delivered-section .delivered-section-title {
+  text-align: center;
+  margin: 0 0 30px;
+}
+.delivered-section .delivered-section-title .title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #090909;
+  margin: 0 0 20px;
+}
+.delivered-section .delivered-section-title .prag {
+  font-size: 14px;
+  font-weight: 500;
+  width: 70%;
+  margin: 0 auto;
+}
 .delivered-section .delivered-box {
   margin: 20px 0;
 }
@@ -2778,6 +2794,17 @@ html[lang="ar"] .title-box-5 .box-title::after {
   .popUp-box .close-menu {
     top: 7px;
     right: 17px;
+  }
+
+  .delivered-section .delivered-section-title {
+    margin: 0 0 20px;
+  }
+  .delivered-section .delivered-section-title .title {
+    font-size: 18px;
+  }
+  .delivered-section .delivered-section-title .prag {
+    font-size: 14px;
+    width: 100%;
   }
 
   .end-banner {

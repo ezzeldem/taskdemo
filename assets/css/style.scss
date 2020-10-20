@@ -3149,6 +3149,25 @@ body {
 .delivered-section{
     padding: 60px 0;
 
+
+    .delivered-section-title{
+        text-align: center;
+        margin: 0 0 30px;
+        .title{
+            font-size: 24px;
+            font-weight: 700;
+            color: rgba($main-color, 1);
+            margin: 0 0 20px;
+        }
+        .prag{
+            font-size: 14px;
+            font-weight: 500;
+            width: 70%;
+            margin: 0 auto;
+        }
+    }
+
+
     .delivered-box{
         margin: 20px 0;
         &:hover{
@@ -3377,6 +3396,18 @@ body {
     }
 
 
+    .delivered-section{
+    .delivered-section-title{
+        margin: 0 0 20px;
+        .title{
+            font-size: 18px;
+        }
+        .prag{
+            font-size: 14px;
+            width: 100%;
+        }
+    }
+}
 
 
     .end-banner{
