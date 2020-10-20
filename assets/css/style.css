@@ -2597,6 +2597,10 @@ html[lang="ar"] .title-box-5 .box-title::after {
   width: 70%;
   margin: 0 auto;
 }
+html[lang="ar"] .delivered-section .delivered-section-title .prag {
+  font-size: 16px;
+  font-weight: 600;
+}
 .delivered-section .delivered-box {
   margin: 20px 0;
 }

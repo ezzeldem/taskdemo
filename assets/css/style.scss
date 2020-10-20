@@ -3164,6 +3164,10 @@ body {
             font-weight: 500;
             width: 70%;
             margin: 0 auto;
+            html[lang="ar"] & {
+                font-size: 16px;
+                font-weight: 600;
+            }
         }
     }
 
