@@ -2592,6 +2592,33 @@ body {
         }
     }
 }
+
+
+
+@media(max-width:1350px){
+    .floorPalns-section,.amnities-section{
+        &::after{
+            width: 70px;
+        }
+    }
+    .floorPalns-section{
+         .size-box{
+              .size-ul{
+                padding: 20px 20px;
+                .list-group{
+                    align-items: center;
+                     a{
+                        font-size: 21px;
+                        width: 112px;
+                        height: 112px;
+                     }
+                    }
+              }
+            }
+        }
+}
+
+
 @media (max-width: 992px) {
     .bottom-3 {
         .link-3 {
@@ -3370,3 +3397,6 @@ body {
         }
     }
 }
+
+
+

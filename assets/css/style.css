@@ -2157,6 +2157,23 @@ html[lang="ar"] .floorPalns-section .size-box .size-title-box .size-title::after
     font-size: 18px;
   }
 }
+@media (max-width: 1350px) {
+  .floorPalns-section::after, .amnities-section::after {
+    width: 70px;
+  }
+
+  .floorPalns-section .size-box .size-ul {
+    padding: 20px 20px;
+  }
+  .floorPalns-section .size-box .size-ul .list-group {
+    align-items: center;
+  }
+  .floorPalns-section .size-box .size-ul .list-group a {
+    font-size: 21px;
+    width: 112px;
+    height: 112px;
+  }
+}
 @media (max-width: 992px) {
   .bottom-3 .link-3 {
     font-size: 14px;
