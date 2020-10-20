@@ -39,7 +39,7 @@ html[lang="en"] {
 }
 html[lang="ar"] {
     body {
-        font-family: 'Tajawal', sans-serif;
+        font-family: "Tajawal", sans-serif;
     }
 }
 body {
@@ -845,7 +845,7 @@ body {
 .footer-content {
     padding: 60px 0 0;
     background-color: rgba($brown-color, 1);
-    .footer-box-content{
+    .footer-box-content {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
@@ -883,7 +883,7 @@ body {
             justify-content: space-between;
             flex-wrap: wrap;
             li {
-                margin: 5px ;
+                margin: 5px;
                 a {
                     font-size: 14px;
                     color: rgba($white-color, 1);
@@ -2011,7 +2011,6 @@ body {
                 padding: 15px;
                 border-radius: 10px 0 0 10px;
                 html[lang="ar"] & {
-                    
                     border-radius: 0 10px 10px 0;
                 }
                 &:focus {
@@ -2022,8 +2021,7 @@ body {
             button {
                 border-radius: 0 10px 10px 0;
                 html[lang="ar"] & {
-                    
-                    border-radius:  10px 0  0 10px ;
+                    border-radius: 10px 0 0 10px;
                 }
                 border: 0;
                 font-size: 12px;
@@ -2280,7 +2278,7 @@ body {
         width: 167px;
         position: absolute;
         background-color: rgba($blue-color, 1);
-        html[lang="ar"] &{
+        html[lang="ar"] & {
             left: unset;
             right: 0;
         }
@@ -2326,7 +2324,7 @@ body {
         position: absolute;
         background-color: rgba($gray-color3, 1);
         z-index: -1;
-        html[lang="ar"] &{
+        html[lang="ar"] & {
             left: unset;
             right: 0;
         }
@@ -2553,7 +2551,7 @@ body {
 // start media
 
 @media (max-width: 1200px) {
-    .amnities-section{
+    .amnities-section {
         padding: 60px;
         &::after {
             width: 73px;
@@ -2567,21 +2565,21 @@ body {
             }
         }
     }
-    .floorPalns-section{
-        &:after{
+    .floorPalns-section {
+        &:after {
             width: 100px;
         }
-         .size-box{
+        .size-box {
             .size-title-box {
                 .size-title-box {
                     font-size: 23px;
                     padding: 17px 23px;
                 }
             }
-              .size-ul{
+            .size-ul {
                 padding: 20px 24px;
-                .list-group{
-                    a{
+                .list-group {
+                    a {
                         width: 99px;
                         height: 99px;
                         display: flex;
@@ -2590,9 +2588,9 @@ body {
                         font-size: 18px;
                     }
                 }
-              }
             }
-        }   
+        }
+    }
 }
 @media (max-width: 992px) {
     .bottom-3 {
@@ -2630,8 +2628,8 @@ body {
             }
         }
     }
-    
-    .amnities-section{
+
+    .amnities-section {
         padding: 32px;
         &::after {
             display: none;
@@ -2757,11 +2755,10 @@ body {
             position: absolute;
             background-color: rgba($black-color, 1);
 
-            html[lang="ar"] & { 
+            html[lang="ar"] & {
                 left: unset;
-                right:  0;
+                right: 0;
             }
-
         }
     }
     .prag {
@@ -2787,55 +2784,46 @@ body {
     }
 }
 
-.management-section{
+.management-section {
     padding: 100px 0;
-    .title-box-5{
+    .title-box-5 {
         margin: 0 0 30px;
         &::after {
             display: none;
         }
     }
-    .management-box{
+    .management-box {
         margin: 10px 0;
-     
 
-        .management-img-box{
+        .management-img-box {
             height: 353px;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
         }
-
-
-
-     
-
-
     }
 
-    .management-box-ditals{
+    .management-box-ditals {
         padding: 10px 20px;
-        .management-name{
+        .management-name {
             font-size: 18px;
             font-weight: 600;
             margin: 0 0 5px;
             color: rgba($main-color, 1);
         }
-        .management-title{
+        .management-title {
             color: rgba($brown-color, 1);
             font-size: 12px;
             font-weight: 500;
             margin: 0 20px 5px;
         }
-        .management-prag{
+        .management-prag {
             color: rgba($main-color, 1);
             font-size: 14px;
             font-weight: 600;
             width: 90%;
         }
     }
-
-
 }
 
 @media (max-width: 992px) {
@@ -2867,36 +2855,21 @@ body {
         padding: 46px 0;
     }
 
-
-
-    
-.management-section{
-    padding: 50px 0;
-    .title-box-5{
-        padding: 0;
-        margin: 0 0 20px;
-    }
-
-    .management-box{
-        margin: 10px 0;
-     
-
-        .management-img-box{
-            height: 300px;
+    .management-section {
+        padding: 50px 0;
+        .title-box-5 {
+            padding: 0;
+            margin: 0 0 20px;
         }
 
+        .management-box {
+            margin: 10px 0;
 
-
-     
-
-
+            .management-img-box {
+                height: 300px;
+            }
+        }
     }
-
-
-
-}
-
-
 }
 
 // ifream-section
@@ -2994,8 +2967,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
-
-    .careers-section-content{
+    .careers-section-content {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -3053,7 +3025,7 @@ body {
             }
         }
     }
-    .anter-cole{
+    .anter-cole {
         margin: 31px 0 0;
     }
 }
@@ -3102,13 +3074,12 @@ body {
             }
         }
     }
-    .contact-title2{
+    .contact-title2 {
         font-size: 20px;
     }
 }
 
-
-.chat-head{
+.chat-head {
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -3126,7 +3097,7 @@ body {
     cursor: pointer;
     box-shadow: 3px 3px 8px rgba($main-color, 0.3);
     border: 1px solid rgba($gold-color, 1);
-    &:hover{
+    &:hover {
         bottom: 35px;
         box-shadow: 4px 4px 10px rgba($main-color, 0.3);
         border: 1px solid rgba($main-color, 1);
@@ -3134,32 +3105,21 @@ body {
     }
 }
 
-
-
-
-
-
-
-
-
-
 // start delivered-section
 
-
-.delivered-section{
+.delivered-section {
     padding: 60px 0;
 
-
-    .delivered-section-title{
+    .delivered-section-title {
         text-align: center;
         margin: 0 0 30px;
-        .title{
+        .title {
             font-size: 24px;
             font-weight: 700;
             color: rgba($main-color, 1);
             margin: 0 0 20px;
         }
-        .prag{
+        .prag {
             font-size: 14px;
             font-weight: 500;
             width: 70%;
@@ -3171,41 +3131,40 @@ body {
         }
     }
 
-
-    .delivered-box{
+    .delivered-box {
         margin: 20px 0;
-        &:hover{
-            .delivered-img-box{
-                &:after{
+        &:hover {
+            .delivered-img-box {
+                &:after {
                     top: 50%;
                     opacity: 1;
                 }
-                &::before{
+                &::before {
                     opacity: 1;
                 }
             }
         }
-        .delivered-img-box{
+        .delivered-img-box {
             height: 200px;
             background-position: center;
             background-repeat: no-repeat;
-            background-size: cover;   
+            background-size: cover;
             overflow: hidden;
-            border-radius: 5px;     
+            border-radius: 5px;
             position: relative;
-            &:after{
+            &:after {
                 content: "Explore";
                 top: 70%;
                 left: 50%;
                 position: absolute;
-                transform: translate(-50% , -50%);
+                transform: translate(-50%, -50%);
                 color: rgba($white-color, 1);
                 opacity: 0;
                 font-size: 20px;
                 font-weight: 700;
                 @extend.transtion-4;
             }
-            &::before{
+            &::before {
                 @extend.transtion-4;
                 content: "";
                 position: absolute;
@@ -3218,35 +3177,33 @@ body {
             }
         }
 
-        .delivered-ditiles{
+        .delivered-ditiles {
             margin: 20px 0 0;
             text-align: center;
-            .delivered-type{
+            .delivered-type {
                 font-size: 12px;
                 color: rgba($brown-color, 1);
                 font-weight: 500;
                 margin: 0 0 10px;
             }
-            .delivered-title{
+            .delivered-title {
                 font-size: 20px;
                 color: rgba($brown-color, 1);
                 font-weight: 700;
                 margin: 0 0 10px;
             }
-            .delivered-place{
+            .delivered-place {
                 font-size: 14px;
                 color: rgba($brown-color, 1);
                 font-weight: 600;
             }
         }
-
     }
 }
 
-
 // end delivered-section
 
-.popUp-box{
+.popUp-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3255,7 +3212,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba($brown-color, .2);
+    background-color: rgba($brown-color, 0.2);
     z-index: 9999999;
     visibility: hidden;
     opacity: 0;
@@ -3284,13 +3241,12 @@ body {
             }
         }
     }
-    .popUp-content{
+    .popUp-content {
         padding: 33px 25px;
         width: 63%;
         background-color: rgba($white-color, 1);
         border-radius: 10px;
         .popUp-img {
-   
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -3310,17 +3266,14 @@ body {
     }
 }
 
-
-
-
-.page-number{
+.page-number {
     text-align: center;
     padding: 0 0 30px;
-    .page-number-arrow{
+    .page-number-arrow {
         display: flex;
         align-items: center;
         justify-content: center;
-        a{
+        a {
             font-size: 20px;
             width: 40px;
             height: 40px;
@@ -3332,24 +3285,22 @@ body {
             margin: 0 10px;
             color: rgba($main-color, 1);
             @extend.transtion-4;
-            &:hover{
+            &:hover {
                 color: rgba($brown-color, 1);
                 border-color: rgba($brown-color, 1);
-            }    
+            }
         }
     }
 }
 
-
-
-.end-banner{
+.end-banner {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     padding: 150px 0;
     text-align: center;
     position: relative;
-    &::before{
+    &::before {
         @extend.transtion-4;
         content: "";
         position: absolute;
@@ -3359,9 +3310,8 @@ body {
         right: 0;
         background-color: rgba($main-color, 0.6);
     }
-    .end-banner-box{
-
-        .banner-title{
+    .end-banner-box {
+        .banner-title {
             font-size: 40px;
             color: rgba($white-color, 1);
             font-weight: 700;
@@ -3369,9 +3319,8 @@ body {
     }
 }
 
-
 @media (max-width: 772px) {
-    .chat-head{
+    .chat-head {
         position: fixed;
         bottom: 30px;
         right: 30px;
@@ -3380,8 +3329,8 @@ body {
         font-size: 20px;
     }
 
-    .popUp-box{
-        .popUp-content{
+    .popUp-box {
+        .popUp-content {
             width: 92%;
             text-align: center;
             padding: 22px 18px;
@@ -3399,40 +3348,25 @@ body {
         }
     }
 
-
-    .delivered-section{
-    .delivered-section-title{
-        margin: 0 0 20px;
-        .title{
-            font-size: 18px;
-        }
-        .prag{
-            font-size: 14px;
-            width: 100%;
-        }
-    }
-}
-
-
-    .end-banner{
-        padding: 50px 0;
-        .end-banner-box{
-    
-            .banner-title{
-                font-size: 20px;
+    .delivered-section {
+        .delivered-section-title {
+            margin: 0 0 20px;
+            .title {
+                font-size: 18px;
+            }
+            .prag {
+                font-size: 14px;
+                width: 100%;
             }
         }
     }
 
-
+    .end-banner {
+        padding: 50px 0;
+        .end-banner-box {
+            .banner-title {
+                font-size: 20px;
+            }
+        }
+    }
 }
-
-
-
-
-
-
-
-
-
-
