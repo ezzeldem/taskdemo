@@ -621,7 +621,7 @@ body {
             height: 90vh;
             display: flex !important;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-end;
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -639,7 +639,7 @@ body {
             }
 
             .intro-content {
-                text-align: center;
+                text-align: end;
                 z-index: 1;
                 .intro-title{
                     font-size: 30px;

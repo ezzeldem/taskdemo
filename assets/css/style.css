@@ -529,7 +529,7 @@ html[lang="ar"] .header-section .nav-menu .close-menu {
   height: 90vh;
   display: flex !important;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -547,7 +547,7 @@ html[lang="ar"] .header-section .nav-menu .close-menu {
   z-index: -1;
 }
 .intro-section .intro-slider .intro-slider-item .intro-content {
-  text-align: center;
+  text-align: end;
   z-index: 1;
 }
 .intro-section .intro-slider .intro-slider-item .intro-content .intro-title {
