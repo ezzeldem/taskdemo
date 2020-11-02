@@ -2157,7 +2157,7 @@ html[lang="ar"] .floorPalns-section .size-box .size-title-box .size-title::after
     font-size: 18px;
   }
 }
-@media (max-width: 1350px) {
+@media (max-width: 1400px) {
   .floorPalns-section::after, .amnities-section::after {
     width: 70px;
   }
