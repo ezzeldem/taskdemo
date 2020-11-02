@@ -34,7 +34,7 @@ $(document).ready(function () {
         arrows: true,
         rtl: dir_lang,
         fade: true,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         prevArrow: "<div class='arrow-slider-header left-arrow'> <i class='fas fa-arrow-left'></i></div>",
         nextArrow: "<div class='arrow-slider-header right-arrow'> <i class='fas fa-arrow-right'></i></div>",

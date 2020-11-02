@@ -619,9 +619,36 @@ body {
         margin: 0 -15px;
         .intro-slider-item {
             height: 90vh;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
+            position: relative;
+            z-index: 1;
+            &::after{
+                content: "";
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: rgba($black-color, .4);
+                position: absolute;
+                z-index: -1;    
+            }
+
+            .intro-content {
+                text-align: center;
+                z-index: 1;
+                .intro-title{
+                    font-size: 30px;
+                    color: $white-color;
+                    font-weight: 700;
+                    
+                }
+            }
+
         }
     }
 }
