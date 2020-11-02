@@ -632,33 +632,6 @@ html[lang="ar"] .find-our-section .select-section .selectForm .select-box:last-o
   border-radius: 30px 30px 30px 30px;
 }
 
-.details-section .section-back {
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.details-section .details-content {
-  padding: 60px 40px;
-}
-.details-section .details-content .details-title {
-  font-size: 44px;
-  color: #090909;
-  font-weight: 700;
-  margin: 0 0 20px;
-  width: 50%;
-}
-.details-section .details-content .details-title-2 {
-  font-size: 30px;
-  color: #090909;
-  font-weight: 600;
-  margin: 0 0 30px;
-}
-.details-section .details-content .prag {
-  font-size: 26px;
-  margin: 0 0 50px;
-}
-
 .request-section .request-content {
   padding: 0 0 60px 0;
   text-align: center;
@@ -2861,4 +2834,101 @@ html[lang="ar"] .delivered-section .delivered-section-title .prag {
   .end-banner .end-banner-box .banner-title {
     font-size: 20px;
   }
+}
+.details-section .section-back {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.details-section .details-content {
+  padding: 60px 40px;
+}
+.details-section .details-content .details-title {
+  font-size: 44px;
+  color: #090909;
+  font-weight: 700;
+  margin: 0 0 20px;
+  width: 50%;
+}
+.details-section .details-content .details-title-2 {
+  font-size: 30px;
+  color: #090909;
+  font-weight: 600;
+  margin: 0 0 30px;
+}
+.details-section .details-content .prag {
+  font-size: 26px;
+  margin: 0 0 50px;
+}
+
+.intro-section .intro-slider .intro-slider-item {
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 1;
+}
+.intro-section .intro-slider .intro-slider-item::after {
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  z-index: -1;
+}
+.intro-section .intro-slider .intro-slider-item .intro-content {
+  text-align: end;
+  z-index: 1;
+}
+.intro-section .intro-slider .intro-slider-item .intro-content .intro-title {
+  font-size: 56px;
+  color: #fff;
+  font-weight: 700;
+}
+.intro-section .intro-slider .intro-slider-item .intro-content .intro-title span {
+  display: block;
+}
+
+@media (max-width: 772px) {
+  .intro-section .intro-slider .intro-slider-item {
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-end;
+    height: 55vh;
+  }
+  .intro-section .intro-slider .intro-slider-item .intro-content {
+    text-align: end;
+    margin: 0 121px;
+  }
+  .intro-section .intro-slider .intro-slider-item .intro-content .intro-title {
+    font-size: 30px;
+  }
+}
+.management-link .management-link-h5 {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  transition: .4s all ease-in-out;
+  margin: 20px  auto;
+  text-align: center;
+  display: inline-block;
+  border-radius: 0;
+  padding: 0;
+}
+.management-link .management-link-h5:hover {
+  color: #24a4b3;
+}
+
+.management-pop .blog-popUp-conten {
+  overflow-y: auto;
+}
+.management-pop .blog-popUp-conten .blog-img {
+  background-position: center top;
+}
+.management-pop .blog-popUp-conten .date-blog::after {
+  display: none;
 }
