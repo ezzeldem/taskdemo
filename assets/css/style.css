@@ -555,6 +555,9 @@ html[lang="ar"] .header-section .nav-menu .close-menu {
   color: #fff;
   font-weight: 700;
 }
+.intro-section .intro-slider .intro-slider-item .intro-content .intro-title span {
+  display: block;
+}
 
 .find-our-section .select-section {
   margin: 40px 0 80px;

@@ -645,7 +645,9 @@ body {
                     font-size: 30px;
                     color: $white-color;
                     font-weight: 700;
-                    
+                    span{
+                        display: block;
+                    }
                 }
             }
 
