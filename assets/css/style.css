@@ -3195,6 +3195,23 @@ html[lang="ar"] .pop-up-new2 .pop-up-new2-box .date-blog::after {
   .pop-up-new2 .pop-up-new2-box .blog-title {
     font-size: 16px;
   }
+
+  .pop-up-new2 .blog-slider2 {
+    padding: 0 0 30px;
+  }
+  .pop-up-new2 .blog-slider2 .arrow-slider-header {
+    top: unset;
+    bottom: -20px;
+  }
+  .pop-up-new2 .blog-slider2 .arrow-slider-header.left-arrow {
+    left: 75px;
+  }
+  .pop-up-new2 .blog-slider2 .arrow-slider-header.right-arrow {
+    right: 60px;
+  }
+  .pop-up-new2 .blog-slider2 .arrow-slider-header i {
+    font-size: 24px;
+  }
 }
 @media (max-width: 772px) {
   .news-section .lastest-news .new-Ntitle {
