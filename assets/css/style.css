@@ -2111,7 +2111,8 @@ html[lang="ar"] .floorPalns-section .size-box .size-title-box .size-title::after
   }
 }
 @media (max-width: 1400px) {
-  .floorPalns-section::after, .amnities-section::after {
+  .floorPalns-section::after,
+  .amnities-section::after {
     width: 70px;
   }
 
@@ -2865,7 +2866,7 @@ html[lang="ar"] .delivered-section .delivered-section-title .prag {
   font-size: 18px;
   font-weight: 600;
   color: black;
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
   margin: 9px auto;
   text-align: center;
   display: inline-block;
@@ -2939,7 +2940,7 @@ html[lang="ar"] .delivered-section .delivered-section-title .prag {
   bottom: 0;
   z-index: -1;
   background-color: rgba(238, 238, 238, 0.5);
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 .news-section .lastest-news .bigNews-Nbox .bigNews-buttom {
   padding: 7px 30px;
@@ -2949,7 +2950,7 @@ html[lang="ar"] .delivered-section .delivered-section-title .prag {
   font-size: 20px;
   color: #525252;
   margin: 0 auto;
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 .news-section .lastest-news .bigNews-Nbox .bigNews-buttom:hover {
   transform: scale(1.05);
@@ -2967,7 +2968,7 @@ html[lang="ar"] .delivered-section .delivered-section-title .prag {
   margin: 0 0 20px 0;
   border-radius: 10px;
   overflow: hidden;
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3003,7 +3004,7 @@ html[lang="ar"] .delivered-section .delivered-section-title .prag {
   bottom: 0;
   z-index: -1;
   background-color: rgba(82, 82, 82, 0.2);
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 .news-section .lastest-news .blog-box-2 .blog-title {
   font-size: 16px;
@@ -3036,7 +3037,7 @@ html[lang="ar"] .delivered-section .delivered-section-title .prag {
   padding: 8px 25px;
   border: 2px solid white;
   border-radius: 50px;
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 .news-section .lastest-news .blog-box-2 .blog-Nbottom .link:hover {
   color: #090909;
@@ -3053,10 +3054,10 @@ html[lang="ar"] .delivered-section .delivered-section-title .prag {
   font-size: 30px;
   margin: 50px auto 10px;
   color: #525252;
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 .news-section .more-bottom a i {
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
   color: #525252;
 }
 .news-section .more-bottom:hover {
@@ -3074,7 +3075,7 @@ html[lang="ar"] .delivered-section .delivered-section-title .prag {
 
 .pop-up-new2 {
   position: fixed;
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3086,7 +3087,7 @@ html[lang="ar"] .delivered-section .delivered-section-title .prag {
   background-color: rgba(82, 82, 82, 0.5);
   visibility: hidden;
   opacity: 0;
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 .pop-up-new2 .close-menu {
   position: absolute;
@@ -3101,7 +3102,7 @@ html[lang="ar"] .delivered-section .delivered-section-title .prag {
   align-items: center;
   cursor: pointer;
   background-color: white;
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 .pop-up-new2 .close-menu:hover {
   background-color: transparent;
@@ -3116,7 +3117,7 @@ html[lang="ar"] .pop-up-new2 .close-menu {
 .pop-up-new2 .close-menu i {
   font-size: 22px;
   color: #090909;
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 .pop-up-new2 .pop-up-new2-box {
   overflow-y: auto;
