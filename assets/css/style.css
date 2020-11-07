@@ -3211,6 +3211,7 @@ html[lang="ar"] .pop-up-new2 .pop-up-new2-box .date-blog::after {
     right: 60px;
   }
   .pop-up-new2 .blog-slider2 .arrow-slider-header i {
+    color: #ffc725;
     font-size: 24px;
   }
 }
