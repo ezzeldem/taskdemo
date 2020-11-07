@@ -3232,3 +3232,10 @@ html[lang="ar"] .pop-up-new2 .pop-up-new2-box .date-blog::after {
     height: 204px;
   }
 }
+.newsleter-box {
+  text-align: center;
+}
+.newsleter-box ul {
+  text-align: center;
+  display: block !important;
+}
