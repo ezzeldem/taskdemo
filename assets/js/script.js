@@ -124,7 +124,7 @@ $(document).ready(function () {
         infinite: true,
         slidesToShow: 2,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         dots: false,
         adaptiveHeight: true,
         rtl: dir_lang,
