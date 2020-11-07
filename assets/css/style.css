@@ -3168,6 +3168,9 @@ html[lang="ar"] .pop-up-new2 .pop-up-new2-box .date-blog::after {
   font-size: 16px;
   color: #525252;
 }
+.pop-up-new2 .pop-up-new2-box .arrow-slider-header i {
+  color: #ffc725;
+}
 
 @media (max-width: 992px) {
   .news-section .lastest-news .new-Ntitle .title {
