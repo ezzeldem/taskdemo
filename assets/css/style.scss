@@ -3858,10 +3858,120 @@ body {
 
 
 
-.newsleter-box{
+
+
+
+
+
+
+
+.footer-content .footer-ul{
+
     text-align: center;
-    ul{
-        text-align: center;
-        display: block !important;
+}
+.adress-text{
+    font-size: 16px;
+    width: 56%;
+    text-align: center;
+    margin: 10px auto 0;
+    color: white;
+    position: relative;
+    padding: 0 20px ;
+    &:after{
+        content: "\f3c5";
+        position: absolute;
+        top: 0%;
+        font-size: 20px;
+        left: 0;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        html[lang="ar"] & {
+            left: unset;
+            right: 0;
+        }
     }
 }
+
+
+@media (max-width: 992px) {
+    .adress-text{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+.contact-adress{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba($black-color, 1);
+    padding: 40px 0;
+    flex-wrap: wrap;
+    .prag{
+        color: rgba($black-color, 1);
+        font-size: 16px;
+        width: 50%;
+        text-align: center;
+    }
+
+    .phone-number{
+        position: relative;
+        color: rgba($black-color, 1);
+        font-size: 16px;
+        padding: 0 20px;
+        transition: .3s all ease-in-out;
+        &:hover{
+            color:rgba($gold-color, 1);
+        }
+        &::after {
+            content: "\f879";
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 14px;
+            left: 0;
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            html[lang="ar"] & {
+                left: unset;
+                right: 0;
+            }
+        }
+    }
+
+}
+
+
+    @media(max-width:772px){
+        .contact-adress{
+            display: block;
+            text-align: center;
+            .prag{
+                width: 100%;
+                padding: 20px ;
+                
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

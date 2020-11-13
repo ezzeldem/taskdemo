@@ -3232,10 +3232,84 @@ html[lang="ar"] .pop-up-new2 .pop-up-new2-box .date-blog::after {
     height: 204px;
   }
 }
-.newsleter-box {
+.footer-content .footer-ul {
   text-align: center;
 }
-.newsleter-box ul {
+
+.adress-text {
+  font-size: 16px;
+  width: 56%;
   text-align: center;
-  display: block !important;
+  margin: 10px auto 0;
+  color: white;
+  position: relative;
+  padding: 0 20px;
+}
+.adress-text:after {
+  content: "\f3c5";
+  position: absolute;
+  top: 0%;
+  font-size: 20px;
+  left: 0;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+html[lang="ar"] .adress-text:after {
+  left: unset;
+  right: 0;
+}
+
+@media (max-width: 992px) {
+  .adress-text {
+    width: 100%;
+  }
+}
+.contact-adress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  padding: 40px 0;
+  flex-wrap: wrap;
+}
+.contact-adress .prag {
+  color: black;
+  font-size: 16px;
+  width: 50%;
+  text-align: center;
+}
+.contact-adress .phone-number {
+  position: relative;
+  color: black;
+  font-size: 16px;
+  padding: 0 20px;
+  transition: .3s all ease-in-out;
+}
+.contact-adress .phone-number:hover {
+  color: #ffc725;
+}
+.contact-adress .phone-number::after {
+  content: "\f879";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  left: 0;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+html[lang="ar"] .contact-adress .phone-number::after {
+  left: unset;
+  right: 0;
+}
+
+@media (max-width: 772px) {
+  .contact-adress {
+    display: block;
+    text-align: center;
+  }
+  .contact-adress .prag {
+    width: 100%;
+    padding: 20px;
+  }
 }
