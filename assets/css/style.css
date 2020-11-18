@@ -3313,3 +3313,50 @@ html[lang="ar"] .contact-adress .phone-number::after {
     padding: 20px;
   }
 }
+.footer-content .footer-ul {
+  margin: 20px 0;
+}
+.footer-content .footer-ul ul li a {
+  font-weight: 600;
+  display: block;
+  font-size: 18px;
+  color: #ffc725;
+}
+.footer-content .footer-ul ul li a:hover {
+  color: white;
+}
+.footer-content .footer-ul ul li .prag {
+  width: 179px;
+  font-size: 12px;
+  text-align: start;
+  margin: 10px 0;
+  color: #fff;
+  font-weight: 400;
+  display: inline-block;
+}
+.footer-content .footer-ul ul ul {
+  text-align: start;
+  display: block;
+}
+.footer-content .footer-ul ul ul li {
+  margin: 10px 0;
+}
+.footer-content .footer-ul ul ul li a {
+  color: white;
+  font-size: 14px;
+}
+.footer-content .footer-ul ul ul li a:hover {
+  color: #ffc725;
+}
+.footer-content .footer-ul ul .sochile-box {
+  display: flex;
+  justify-content: center;
+}
+.footer-content .footer-ul ul .sochile-box a {
+  margin: 10px;
+  font-size: 22px;
+  color: white;
+}
+.footer-content .footer-ul ul .sochile-box a:hover {
+  color: #ffc725;
+}

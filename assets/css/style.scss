@@ -3974,4 +3974,63 @@ body {
 
 
 
-    
+    .footer-content{
+         .footer-ul{
+             margin: 20px 0;
+              ul{
+                   li{
+
+                     a{
+                         font-weight: 600;
+                         display: block;
+                        font-size: 18px;
+                        color: rgba($gold-color, 1);
+                        &:hover{
+                            color: rgba($white-color, 1);
+                        }
+                     }
+                     .prag{
+                        width: 179px;
+                        font-size: 12px;
+                        text-align: start;
+                        margin: 10px 0;
+                        color: #fff;
+                        font-weight: 400;
+                        display: inline-block;
+                     }
+                    }
+                    ul{
+                        text-align: start;
+                        display: block;
+                        li{
+                            margin: 10px 0;
+                            a{
+                                color: rgba($white-color, 1);
+                                font-size: 14px;
+                                &:hover{
+                                    color: rgba($gold-color, 1);
+                                }
+                            }
+                        }
+                    }
+                    .sochile-box{
+                        display: flex;
+                        justify-content: center;
+                        a{
+                            margin: 10px ;
+                            font-size: 22px;
+                            color: rgba($white-color, 1);
+                            &:hover{
+                                color: rgba($gold-color, 1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+
+
+
