@@ -3316,14 +3316,14 @@ html[lang="ar"] .contact-adress .phone-number::after {
 .footer-content .footer-ul ul li a {
   font-weight: 600;
   display: block;
-  font-size: 18px;
+  font-size: 14px;
   color: #ffc725;
 }
 .footer-content .footer-ul ul li a:hover {
   color: white;
 }
 .footer-content .footer-ul ul li .prag {
-  max-width: 159px;
+  max-width: 160px;
   font-size: 12px;
   text-align: start;
   margin: 10px 0;
