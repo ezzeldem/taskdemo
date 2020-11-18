@@ -3313,9 +3313,6 @@ html[lang="ar"] .contact-adress .phone-number::after {
     padding: 20px;
   }
 }
-.footer-content .footer-ul {
-  margin: 20px 0;
-}
 .footer-content .footer-ul ul li a {
   font-weight: 600;
   display: block;
