@@ -3990,7 +3990,7 @@ body {
                         }
                      }
                      .prag{
-                        width: 179px;
+                        max-width: 179px;
                         font-size: 12px;
                         text-align: start;
                         margin: 10px 0;
@@ -4031,6 +4031,38 @@ body {
 
 
 
+@media(max-width:772px)
+{   
+    
+    .footer-content{
+        .footer-ul{
+            margin: 20px 0;
+             ul{
+                 display: block;
+                 text-align: center;
+                  li{
+                    margin: 10px 0;
+                    a{
+                       font-size: 16px !important;
+                    }
+                   }
+                   ul{
+                       text-align: center;
+                       li{
+                           margin: 5px 0;
+                           a{
+                            font-size: 12px !important;
+                           }
+                       }
+                   }
+                   .sochile-box{
+                       a{
+                           font-size: 16px;
+                       }
+                   }
+               }
+           }
+       }
 
-
+}
 

@@ -3326,7 +3326,7 @@ html[lang="ar"] .contact-adress .phone-number::after {
   color: white;
 }
 .footer-content .footer-ul ul li .prag {
-  width: 179px;
+  max-width: 179px;
   font-size: 12px;
   text-align: start;
   margin: 10px 0;
@@ -3359,4 +3359,32 @@ html[lang="ar"] .contact-adress .phone-number::after {
 }
 .footer-content .footer-ul ul .sochile-box a:hover {
   color: #ffc725;
+}
+
+@media (max-width: 772px) {
+  .footer-content .footer-ul {
+    margin: 20px 0;
+  }
+  .footer-content .footer-ul ul {
+    display: block;
+    text-align: center;
+  }
+  .footer-content .footer-ul ul li {
+    margin: 10px 0;
+  }
+  .footer-content .footer-ul ul li a {
+    font-size: 16px !important;
+  }
+  .footer-content .footer-ul ul ul {
+    text-align: center;
+  }
+  .footer-content .footer-ul ul ul li {
+    margin: 5px 0;
+  }
+  .footer-content .footer-ul ul ul li a {
+    font-size: 12px !important;
+  }
+  .footer-content .footer-ul ul .sochile-box a {
+    font-size: 16px;
+  }
 }
