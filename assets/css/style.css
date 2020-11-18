@@ -3357,6 +3357,10 @@ html[lang="ar"] .contact-adress .phone-number::after {
 .footer-content .footer-ul ul .sochile-box a:hover {
   color: #ffc725;
 }
+.footer-content .flow-title {
+  font-size: 22px  !important;
+  font-weight: 400 !important;
+}
 
 @media (max-width: 772px) {
   .footer-content .footer-ul {

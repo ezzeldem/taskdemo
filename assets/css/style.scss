@@ -4015,6 +4015,7 @@ body {
                     .sochile-box{
                         display: flex;
                         justify-content: center;
+                
                         a{
                             margin: 10px ;
                             font-size: 22px;
@@ -4025,6 +4026,10 @@ body {
                         }
                     }
                 }
+            }
+            .flow-title{
+                font-size: 22px  !important;
+                font-weight: 400 !important;
             }
         }
 
