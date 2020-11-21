@@ -3392,4 +3392,8 @@ html[lang="ar"] .contact-adress .phone-number::after {
   .footer-content .footer-ul ul li .prag {
     font-size: 10px;
   }
+
+  .footer-content .footer-ul ul .sochile-box {
+    justify-content: flex-start;
+  }
 }
