@@ -3978,7 +3978,8 @@ body {
          .footer-ul{
               ul{
                    li{
-
+                    max-width: 162px;
+                    text-align: start;
                      a{
                          font-weight: 600;
                          display: block;
@@ -3989,7 +3990,6 @@ body {
                         }
                      }
                      .prag{
-                        max-width: 122px;
                         font-size: 12px;
                         text-align: start;
                         margin: 10px 0;

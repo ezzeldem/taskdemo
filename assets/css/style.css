@@ -3313,6 +3313,10 @@ html[lang="ar"] .contact-adress .phone-number::after {
     padding: 20px;
   }
 }
+.footer-content .footer-ul ul li {
+  max-width: 162px;
+  text-align: start;
+}
 .footer-content .footer-ul ul li a {
   font-weight: 600;
   display: block;
@@ -3323,7 +3327,6 @@ html[lang="ar"] .contact-adress .phone-number::after {
   color: white;
 }
 .footer-content .footer-ul ul li .prag {
-  max-width: 122px;
   font-size: 12px;
   text-align: start;
   margin: 10px 0;
