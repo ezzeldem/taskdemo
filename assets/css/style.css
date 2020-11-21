@@ -3323,12 +3323,12 @@ html[lang="ar"] .contact-adress .phone-number::after {
   color: white;
 }
 .footer-content .footer-ul ul li .prag {
-  max-width: 160px;
+  max-width: 122px;
   font-size: 12px;
   text-align: start;
   margin: 10px 0;
+  font-weight: 300;
   color: #fff;
-  font-weight: 400;
   display: inline-block;
 }
 .footer-content .footer-ul ul ul {
