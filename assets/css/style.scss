@@ -4042,9 +4042,8 @@ body {
         .footer-ul{
             margin: 20px 0;
              ul{
-                 display: block;
-                 text-align: center;
                   li{
+                    flex-basis: 50%;
                     margin: 10px 0;
                     a{
                        font-size: 16px !important;
@@ -4068,5 +4067,8 @@ body {
            }
        }
 
+       .footer-content .footer-ul ul li .prag {
+        font-size: 10px;
+       }
 }
 

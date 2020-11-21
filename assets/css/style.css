@@ -3369,11 +3369,8 @@ html[lang="ar"] .contact-adress .phone-number::after {
   .footer-content .footer-ul {
     margin: 20px 0;
   }
-  .footer-content .footer-ul ul {
-    display: block;
-    text-align: center;
-  }
   .footer-content .footer-ul ul li {
+    flex-basis: 50%;
     margin: 10px 0;
   }
   .footer-content .footer-ul ul li a {
@@ -3390,5 +3387,9 @@ html[lang="ar"] .contact-adress .phone-number::after {
   }
   .footer-content .footer-ul ul .sochile-box a {
     font-size: 16px;
+  }
+
+  .footer-content .footer-ul ul li .prag {
+    font-size: 10px;
   }
 }
