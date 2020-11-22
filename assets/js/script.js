@@ -190,7 +190,7 @@ $(document).ready(function () {
         dots: false,
         adaptiveHeight: true,
         rtl: dir_lang,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 9000,
         arrows:false,
         responsive: [
             {
