@@ -3423,7 +3423,7 @@ html[lang="ar"] .contact-adress .phone-number::after {
   background-color: rgba(255, 255, 255, 0.7);
   text-align: center;
   width: 100%;
-  transition: .4s all ease-in-out;
+  transition: .4s all linear;
 }
 .details-banner .details-banner-slider .details-banner-slider-item .blog-Nbottom .details-banner-img .text-box .titile {
   font-size: 24px;

@@ -4059,7 +4059,7 @@ body {
             background-color: rgba($white-color, .7);
             text-align: center;
             width: 100%;
-            transition: .4s all ease-in-out;
+            transition: .4s all linear;
             .titile{
               font-size: 24px;
               font-weight: 600;
