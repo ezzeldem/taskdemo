@@ -171,6 +171,65 @@ $(document).ready(function () {
     // niceSelect
     $(".select-box").niceSelect();
 
+
+
+
+
+
+
+
+
+
+
+
+    $(".details-banner-slider").slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        dots: false,
+        adaptiveHeight: true,
+        rtl: dir_lang,
+        autoplaySpeed: 1000,
+        arrows:false,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                },
+            },
+            {
+                breakpoint: 772,
+                settings: {
+                    centerMode: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                },
+            },
+        ],
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // Aos
     AOS.init();
 });
