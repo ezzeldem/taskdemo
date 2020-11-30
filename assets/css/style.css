@@ -3408,7 +3408,7 @@ html[lang="ar"] .contact-adress .phone-number::after {
   overflow: hidden;
   position: relative;
   border-radius: 10px;
-  width: calc(100% - 20px ) !important;
+  width: calc(100% - 20px) !important;
 }
 .details-banner .details-banner-slider .details-banner-slider-item .blog-Nbottom .details-banner-img:hover .text-box {
   bottom: 0%;
@@ -3423,7 +3423,7 @@ html[lang="ar"] .contact-adress .phone-number::after {
   background-color: rgba(255, 255, 255, 0.7);
   text-align: center;
   width: 100%;
-  transition: .4s all linear;
+  transition: 0.4s all linear;
 }
 .details-banner .details-banner-slider .details-banner-slider-item .blog-Nbottom .details-banner-img .text-box .titile {
   font-size: 24px;
@@ -3443,9 +3443,39 @@ html[lang="ar"] .contact-adress .phone-number::after {
   color: white;
   border-radius: 10px;
   border: 1px solid #343434;
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 .details-banner .details-banner-slider .details-banner-slider-item .blog-Nbottom .details-banner-img .text-box .update-viwe:hover {
   color: #343434;
   background-color: transparent;
+}
+
+.intro-banner-3 {
+  margin: -128px 0 0;
+}
+.intro-banner-3 .intro-slider-3 .intro-slider-3-item {
+  position: relative;
+  background-position: right top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 420px;
+}
+.intro-banner-3 .intro-slider-3 .intro-slider-3-item .banner-vedio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.intro-banner-3 .intro-slider-3 .intro-slider-3-item .intro-content {
+  text-align: end;
+}
+.intro-banner-3 .intro-slider-3 .intro-slider-3-item .intro-content .intro-title {
+  margin: 0 0 0 auto;
+  font-size: 90px;
+  font-weight: 700;
+  color: white;
 }

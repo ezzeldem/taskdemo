@@ -213,6 +213,18 @@ $(document).ready(function () {
         ],
     });
 
+    $(".intro-slider-3").slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        dots: true,
+        adaptiveHeight: true,
+        rtl: dir_lang,
+        autoplaySpeed: 700,
+        arrows:false,
+    });
+
 
 
 

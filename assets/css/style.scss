@@ -4038,54 +4038,86 @@ body {
         .details-banner-img {
           height: 300px;
           background-position: center;
-          background-size:cover;
+          background-size: cover;
           background-repeat: no-repeat;
           overflow: hidden;
           position: relative;
           border-radius: 10px;
-          width: calc(100% - 20px ) !important;
-          &:hover{
-            .text-box{
+          width: calc(100% - 20px) !important;
+          &:hover {
+            .text-box {
               bottom: 0%;
             }
           }
-          .text-box{
+          .text-box {
             position: absolute;
             bottom: -65%;
             height: 100%;
             padding: 30px 0;
             left: 0;
             right: 0;
-            background-color: rgba($white-color, .7);
+            background-color: rgba($white-color, 0.7);
             text-align: center;
             width: 100%;
-            transition: .4s all linear;
-            .titile{
+            transition: 0.4s all linear;
+            .titile {
               font-size: 24px;
               font-weight: 600;
               color: rgba($black-color, 1);
             }
-            .date-update{
+            .date-update {
               font-size: 16px;
               font-weight: 500;
               margin: 9px 0 60px;
             }
-            .update-viwe{
+            .update-viwe {
               padding: 8px 24px;
               background-color: rgba($brown-color, 1);
               font-size: 20px;
               font-weight: 600;
               color: rgba($white-color, 1);
               border-radius: 10px;
-              border: 1px solid rgba($brown-color,  1);
-              transition: .4s all ease-in-out;
-              &:hover{
+              border: 1px solid rgba($brown-color, 1);
+              transition: 0.4s all ease-in-out;
+              &:hover {
                 color: rgba($brown-color, 1);
                 background-color: transparent;
               }
             }
           }
+        }
+      }
+    }
+  }
+}
 
+.intro-banner-3 {
+  margin: -128px 0 0;
+
+  .intro-slider-3 {
+    .intro-slider-3-item {
+      position: relative;
+      background-position: right top;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 420px;
+      .banner-vedio {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+      }
+      .intro-content {
+        text-align: end;
+        .intro-title {
+          margin: 0 0 0 auto;
+          font-size: 90px;
+          font-weight: 700;
+          color: white;
         }
       }
     }
