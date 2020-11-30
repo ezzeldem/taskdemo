@@ -218,7 +218,7 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: false,
-        dots: true,
+        dots: false,
         adaptiveHeight: true,
         rtl: dir_lang,
         autoplaySpeed: 700,

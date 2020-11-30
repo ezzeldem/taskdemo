@@ -3456,7 +3456,7 @@ html[lang="ar"] .contact-adress .phone-number::after {
 .intro-banner-3 .intro-slider-3 .intro-slider-3-item {
   position: relative;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
   z-index: 1;
@@ -3486,7 +3486,7 @@ html[lang="ar"] .contact-adress .phone-number::after {
 }
 .intro-banner-3 .intro-slider-3 .intro-slider-3-item .intro-content .intro-title {
   margin: 0 0 0 auto;
-  font-size: 90px;
+  font-size: 50px;
   font-weight: 700;
   color: white;
 }
