@@ -3455,20 +3455,31 @@ html[lang="ar"] .contact-adress .phone-number::after {
 }
 .intro-banner-3 .intro-slider-3 .intro-slider-3-item {
   position: relative;
-  background-position: right top;
+  background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 420px;
+  height: 500px;
+  z-index: 1;
+  display: flex !important;
+  align-items: center;
+}
+.intro-banner-3 .intro-slider-3 .intro-slider-3-item::after {
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(9, 9, 9, 0.6);
+  z-index: -1;
+  position: absolute;
 }
 .intro-banner-3 .intro-slider-3 .intro-slider-3-item .banner-vedio {
   position: absolute;
-  top: 0;
+  top: 50%;
   left: 0;
   right: 0;
-  bottom: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
+  transform: translateY(-50%);
+  z-index: -1;
 }
 .intro-banner-3 .intro-slider-3 .intro-slider-3-item .intro-content {
   text-align: end;
