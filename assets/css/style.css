@@ -536,6 +536,14 @@ html[lang="ar"] .header-section .nav-menu .close-menu {
   position: relative;
   z-index: 1;
 }
+.intro-section .intro-slider .intro-slider-item .banner-vedio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
 .intro-section .intro-slider .intro-slider-item::after {
   content: "";
   top: 0;
